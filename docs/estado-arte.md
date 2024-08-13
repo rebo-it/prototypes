@@ -22,7 +22,9 @@ Unifique los datos empresariales de toda su organización a partir de diversas f
 5. [Hubspot Sales hub](https://www.hubspot.es/products/sales)
     >  "Un software de ventas completo con herramientas de interacción para ventas, funciones de gestión de negocios, características de análisis e informes, capacidades de CPQ y herramientas de formación. Además, puede integrarse fácilmente con las más de 1500 herramientas del mercado de aplicaciones de HubSpot."
 6. [Software adicionales](https://smallbiztrends.com/sales-forecasting-software/)
-***
+
+---
+
 ## Tecnologías a implementar para ***forecasting***
 **Backend Technologies**:
 
