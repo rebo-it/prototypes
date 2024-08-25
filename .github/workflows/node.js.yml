@@ -32,5 +32,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Deploy to Github Pages
-    - run: npm run deploy
+      run: npm run deploy
