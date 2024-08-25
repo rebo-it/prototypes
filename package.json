@@ -1,5 +1,6 @@
 {
   "name": "prototypes",
+  "homepage": "https://rebo-it.github.io/prototypes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
