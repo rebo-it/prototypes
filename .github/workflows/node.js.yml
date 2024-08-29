@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Build and Deploy
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
@@ -25,17 +25,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Deploy to Github Pages
-      uses: actions/setup-node@v4
-      with:
-        node-version: 22.x
-        cache: 'npm'
-    # - run: npm install
-    - run: gh-pages -d build
+    - run: npm deploy run
