@@ -1,9 +1,8 @@
 name: Deploy React to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main # name of the branch you are pushing to
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
