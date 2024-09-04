@@ -1,0 +1,29 @@
+.btn-header{
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.btn-get-started{
+    background-color: pink;
+}
+.btn-apply {
+    background-color: white;
+}
+.btn-learn-more{
+    border-color: white;
+    background: none;
+    border-style: solid;
+}
+.btn-small {
+    width: 80px;
+    height: 40px;
+}
+.btn-medium {
+    width: 100px;
+    height: 40px;
+}
+.btn-large {
+    width: 150px;
+    height: 40px;
+}
