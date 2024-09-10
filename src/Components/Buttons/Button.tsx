@@ -1,26 +1,28 @@
 import React from "react";
-import './Button.css'; 
+import './Button.css'; // TODO: Create CSS folder for components
+
 interface ButtonProps {
     label: string;
-    variant?: 'HeaderButton' | 'GetStarted'| 'Apply' | 'LearnMore';
+    variant?: 'ImageButton' | 'GetStarted'| 'TextButton' | 'IconButton';
+    // TODO: Divide buttons in 'TextButton'|'Button'|'ImageButton'|'IconButton'
     size?: 'small' | 'medium' | 'large';
-  
+    onClick: () => void;
 }
-const Button: React.FC<ButtonProps> = ({ label,  variant, size}) => {
+const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick}) => {
     const getButtonClass = () => {
         let baseClass = 'btn';
         switch (variant) {
-            case 'HeaderButton':
-            baseClass += ' btn-header';
+            case 'ImageButton':
+            baseClass += ' btn-Img';
             break;
             case 'GetStarted':
             baseClass += ' btn-get-started';
             break;
-            case 'Apply':
-            baseClass += ' btn-apply';
+            case 'TextButton':
+            baseClass += ' btn-Text';
             break;
-            case 'LearnMore':
-            baseClass += ' btn-learn-more';
+            case 'IconButton':
+            baseClass += ' btn-Icon';
             break;
             default:
             break;
