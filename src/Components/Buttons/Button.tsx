@@ -30,6 +30,7 @@ const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick}) => {
         if (size === 'small') baseClass += ' btn-small';
         else if (size === 'large') baseClass += ' btn-large';
         else if (size === 'medium') baseClass += ' btn-medium';
+        else if (size === 'image') baseClass += ' btn-image';
 
         return baseClass;
     };

@@ -1,13 +1,24 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import Button from './Components/Buttons/Button';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './Components/LandingPage';
+import SignUpPage from './Components/Sign-up-page/SignUpPage';
+//import <HeaderOne></HeaderOne>
 
 function App() {
   return (
- <Button  label='Get Started' variant='GetStarted' size='large' onClick={function (): void {
-      throw new Error('Function not implemented.');
-    } } />
+    <div>
+      <div>
+        <LandingPage/>
+      </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/signup" element={<SignUpPage />} />
+    </Routes>
+  </Router>
+  </div>
+
   );
 }
 
