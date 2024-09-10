@@ -7,18 +7,12 @@ import SignUpPage from './Components/Sign-up-page/SignUpPage';
 
 function App() {
   return (
-    <div>
-      <div>
-        <LandingPage/>
-      </div>
     <Router>
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/signup" element={<SignUpPage />} />
     </Routes>
   </Router>
-  </div>
-
   );
 }
 
