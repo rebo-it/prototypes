@@ -1,6 +1,6 @@
 import React from "react";
 //import './Body.css'; // Archivo CSS para los estilos del body
-import { Component} from 'react'; 
+
 import Button from "../Buttons/Button";
 const BodyLandingPage: React.FC = () => {
   return (
