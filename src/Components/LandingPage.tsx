@@ -1,5 +1,7 @@
 import React from 'react';
 import HeaderWithButtons from './Header/HeaderWithButtons';
+import BodyLandingPage from './BodyComponent/BodyLandingPage'
+import { Component} from 'react'; 
 const LandingPage: React.FC = () => {
   const handleClick = () => {
     alert('Botón clicado');
@@ -8,7 +10,7 @@ const LandingPage: React.FC = () => {
   return (
     <div>
       <HeaderWithButtons />
-      <h1>Bienvenido a Nuestra Página</h1>
+      <BodyLandingPage />
     
     </div>
   );

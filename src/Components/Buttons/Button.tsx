@@ -5,10 +5,12 @@ interface ButtonProps {
     label: string;
     variant?: 'ImageButton' | 'GetStarted'| 'TextButton' | 'IconButton';
     // TODO: Divide buttons in 'TextButton'|'Button'|'ImageButton'|'IconButton'
-    size?: 'small' | 'medium' | 'large';
+    size?: 'small' | 'medium' | 'large' | 'image';
     onClick: () => void;
+    imageSrc?: string;   // Para la imagen en ImageButton
+    icon?: JSX.Element;
 }
-const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick}) => {
+const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick, imageSrc, icon}) => {
     const getButtonClass = () => {
         let baseClass = 'btn';
         switch (variant) {
@@ -34,8 +36,17 @@ const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick}) => {
 
         return baseClass;
     };
-    return (
-        <button className={getButtonClass()} >
+      return (
+        <button className={getButtonClass()} onClick={onClick}>
+          {/* Renderizar imagen si es un ImageButton */}
+          {variant === 'ImageButton' && imageSrc && (
+            <img src={imageSrc} alt="Button Image" className="button-image" />
+          )}
+          {/* Renderizar ícono si es un IconButton */}
+          {variant === 'IconButton' && icon && (
+            <span className="button-icon">{icon}</span>
+          )}
+          {/* Mostrar el texto (label) */}
           {label}
         </button>
       );
