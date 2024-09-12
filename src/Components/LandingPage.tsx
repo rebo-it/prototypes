@@ -1,11 +1,11 @@
 import React from 'react';
 import HeaderWithButtons from './Header/HeaderWithButtons';
 import BodyLandingPage from './BodyComponent/BodyLandingPage'
-import { Component} from 'react'; 
+// import { Component} from 'react'; 
 const LandingPage: React.FC = () => {
-  const handleClick = () => {
-    alert('Botón clicado');
-  };
+  // const handleClick = () => {
+  //   alert('Botón clicado');
+  // };
 
   return (
     <div>

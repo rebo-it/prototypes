@@ -40,7 +40,7 @@ const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick, imageSr
         <button className={getButtonClass()} onClick={onClick}>
           {/* Renderizar imagen si es un ImageButton */}
           {variant === 'ImageButton' && imageSrc && (
-            <img src={imageSrc} alt="Button Image" className="button-image" />
+            <img src={imageSrc} alt="ButtonImage" className="button-image" />
           )}
           {/* Renderizar ícono si es un IconButton */}
           {variant === 'IconButton' && icon && (

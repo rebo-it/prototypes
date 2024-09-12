@@ -5,7 +5,7 @@ import './HeaderWithButtons.css';
 interface HeaderWithButtonsProps{
   
 }
-const HeaderWithButtons: React.FC<HeaderWithButtonsProps> = ({  }) => {
+const HeaderWithButtons: React.FC<HeaderWithButtonsProps> = () => {
 	const navigate = useNavigate();
 	return (
       <div className="header-container">
