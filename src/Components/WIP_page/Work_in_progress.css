@@ -1,0 +1,11 @@
+.WipContainer{
+    text-align: center;
+    display: flex;
+    padding-left: 50px;
+    margin: auto;
+}
+.WipText{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

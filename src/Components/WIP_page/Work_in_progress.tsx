@@ -1,15 +1,15 @@
 import React from "react";
-
+import './Work_in_progress.css'
 
 const WorkInProgress: React.FC = () => {
 
   return(
-		<div>
-			<p>Lo sentimos, actualmente este sitio web se encuentra bajo construcción</p>
+		<div className="WipContainer">
+			<p className="WipText">Lo sentimos, actualmente este sitio web se encuentra bajo construcción</p>
 			
 			<div>
 				Aquí los contactos:
-				<i className="bi bi-instagram"></i> 
+				<p> <i className="bi bi-instagram"></i> </p>
 				
 			</div>
 

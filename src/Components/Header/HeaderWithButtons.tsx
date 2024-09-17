@@ -10,17 +10,17 @@ const HeaderWithButtons: React.FC<HeaderWithButtonsProps> = () => {
 	return (
       <div className="header-container">
         <div className="left-button">
-          <Button size="image" label="Learn More" variant="ImageButton" imageSrc="./Assets/rebo-lighting-logo.png" onClick={() => console.log('Learn More clicked')} />
+          <Button size="image" label="Learn More" variant="ImageButton" imageSrc="./Assets/logo192.png" onClick={() => console.log('Learn More clicked')} />
         </div>
 
         <div className="right-buttons">
-          <Button size="small" label="About" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-          <Button label="Solution" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-    	    <Button label="Team" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-  				<Button label="Portfolio" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-        	<Button label="Pricing" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-          <Button label="FAQ" variant="TextButton" onClick={() => console.log('Apply clicked')} />
-          <Button label="Get Started" variant="GetStarted" onClick={()  => navigate('/signup')} />
+          <Button size="medium" label="About" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+          <Button size="medium" label="Solution" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+    	    <Button size="medium" label="Team" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+  				<Button size="medium" label="Portfolio" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+        	<Button size="medium" label="Pricing" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+          <Button size="medium" label="FAQ" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+          <Button size="large" label="Get Started" variant="GetStarted" onClick={()  => navigate('/signup')} />
         </div>
       </div>
     );

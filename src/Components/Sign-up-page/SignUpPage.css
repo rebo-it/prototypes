@@ -6,3 +6,9 @@ body {
 	height: 100vh; /* Asegura que la imagen ocupe el 100% de la altura */
 	margin: 0;
   }
+  .title{
+    color: white;
+  }
+  .Paragraph{
+    color: white;
+  }

@@ -5,16 +5,46 @@
     color: black;
 }
 .btn-get-started{
-    background-color: pink;
+    background-color: rgb(224, 80, 104);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-get-started:hover{
+    opacity: 0.7;
+}
+.btn-get-started:active{
+    opacity: 0.5;
 }
 .btn-Text {
     background-color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
-.btn-Img{
+.btn-Text:hover{
+    opacity: 0.6;
+}
+
+.btn-Img {
+    display: inline-flex; /* Para alinear elementos dentro del botón */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background-color: transparent; /* O el color que desees */
+    cursor: pointer;
     border-color: white;
-    background: none;
     border-style: solid;
-}
+  }
+  
+  .btn-Img img {
+    width: 100%;  /* Asegura que la imagen se ajuste al tamaño del botón */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    object-fit: contain; /* Evita que la imagen se recorte, siempre visible */
+    max-width: 50px; /* Ajusta según el tamaño que quieras para la imagen */
+  }
+  
 .btn-small {
     width: 80px;
     height: 40px;
@@ -22,10 +52,17 @@
 .btn-medium {
     width: 100px;
     height: 40px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+}
+.btn-medium:hover{
+    background-color: rgb(224, 80, 104);
 }
 .btn-large {
     width: 150px;
     height: 40px;
+    border-radius: 20px;
 }
 .bt-image{
     width: 150px;
