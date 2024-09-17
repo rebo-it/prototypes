@@ -1,0 +1,25 @@
+.BodyContainer{
+	display: grid;
+	grid-auto-flow: row;
+	grid-row-gap: 25px;
+	padding-left: 20px;
+}
+.BodyParagraph{
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.BodyButtons{
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.Button_left{
+	padding-right: 30px;
+}
+.BodyIcon{
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

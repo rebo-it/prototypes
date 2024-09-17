@@ -10,7 +10,7 @@ const HeaderWithButtons: React.FC<HeaderWithButtonsProps> = () => {
 	return (
       <div className="header-container">
         <div className="left-button">
-          <Button size="image" label="Learn More" variant="ImageButton" onClick={() => console.log('Learn More clicked')} />
+          <Button size="image" label="Learn More" variant="ImageButton" imageSrc="./Assets/rebo-lighting-logo.png" onClick={() => console.log('Learn More clicked')} />
         </div>
 
         <div className="right-buttons">

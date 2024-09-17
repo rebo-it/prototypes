@@ -1,11 +1,12 @@
 .header-container{
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 .right-buttons{
     display: grid;
     grid-auto-flow: column;
-    grid-column-gap: 20px;
+    grid-column-gap: 25px;
     padding-left: 400px;
     padding-top: 50px;
 }
