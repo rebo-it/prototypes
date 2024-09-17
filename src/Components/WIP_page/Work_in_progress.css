@@ -1,11 +1,22 @@
 .WipContainer{
-    text-align: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
     padding-left: 50px;
+    padding-top: 200px;
     margin: auto;
 }
 .WipText{
     color: white;
     font-weight: bold;
     text-align: center;
+}
+.bi{
+    color: white;
+
+}
+.DatosDeContacto{
+    color: white;
+    font-weight: bold;
+    
 }

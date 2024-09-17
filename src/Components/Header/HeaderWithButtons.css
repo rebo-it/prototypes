@@ -8,9 +8,13 @@
     display: flex;
     flex-direction: row;
     padding-left: 400px;
-    
+    gap: 30px;
 }
 .left-button{
     width: 300px;
     
+}
+.BodyIcon{
+    display: flex;
+    align-items: end;
 }

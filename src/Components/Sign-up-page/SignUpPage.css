@@ -1,11 +1,4 @@
-body {
-	background-image: url('/public/Assets/BackgroundPic.webp');
-	background-size: cover; /* Hace que la imagen cubra toda la pantalla */
-	background-position: center; /* Centra la imagen */
-	background-repeat: no-repeat; /* Evita que la imagen se repita */
-	height: 100vh; /* Asegura que la imagen ocupe el 100% de la altura */
-	margin: 0;
-  }
+
   .title{
     color: white;
   }

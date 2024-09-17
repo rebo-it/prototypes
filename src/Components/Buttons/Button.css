@@ -65,5 +65,7 @@
     border-radius: 20px;
 }
 .bt-image{
-    width: 150px;
+    width: 100%;
+    height: auto;
+    
 }
