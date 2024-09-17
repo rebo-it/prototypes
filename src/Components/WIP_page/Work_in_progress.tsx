@@ -7,7 +7,11 @@ const WorkInProgress: React.FC = () => {
 		<div>
 			<p>Lo sentimos, actualmente este sitio web se encuentra bajo construcción</p>
 			
-			<div></div>
+			<div>
+				Aquí los contactos:
+				<i className="bi bi-instagram"></i> 
+				
+			</div>
 
 		</div>
   );

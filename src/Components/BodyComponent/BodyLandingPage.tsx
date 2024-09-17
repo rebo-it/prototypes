@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 //import './Body.css'; // Archivo CSS para los estilos del body
 
 import Button from "../Buttons/Button";
@@ -11,14 +12,15 @@ const BodyLandingPage: React.FC = () => {
       </div>
       <div className="BodyButtons">
       <span className="Button_left">
-        <Button size="small" label="About" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+        <Button size="large" label="Apply now" variant="TextButton" onClick={() => console.log('Apply clicked')} />
       </span>
       <span className="Button_right">
-        <Button size="small" label="About" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+        <Button size="large" label="Learn more" variant="TextButton" onClick={() => console.log('Apply clicked')} />
       </span>
       </div>
       <div className="BodyIcon">
-        <Button size="small" label="About" variant="TextButton" onClick={() => console.log('Apply clicked')} />
+        <Button size="small" label="About" variant="IconButton" onClick={() => console.log('Apply clicked')} />
+        
       </div>
     </div>
 

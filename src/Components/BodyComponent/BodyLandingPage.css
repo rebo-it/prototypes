@@ -10,9 +10,11 @@
 	padding-bottom: 50px;
 }
 .BodyButtons{
+	display: flex;
 	color: black;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	align-items: center;
 	
 }
 .Button_left{
@@ -23,3 +25,11 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+body {
+	background-image: url('/public/Assets/FondoPantalla2.jpg');
+	background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	height: 100vh; /* Asegura que la imagen ocupe el 100% de la altura */
+	margin: 0;
+  }
