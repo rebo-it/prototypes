@@ -19,7 +19,7 @@ const BodyLandingPage: React.FC = () => {
       </span>
       </div>
       <div className="BodyIcon">
-        <Button size="small" label="About" variant="IconButton" onClick={() => console.log('Apply clicked')} />
+        <Button size="small" label="" variant="IconButton" icon="bi bi-file-play" onClick={() => console.log('Apply clicked')} />
         
       </div>
     </div>

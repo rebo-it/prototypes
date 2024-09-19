@@ -8,9 +8,10 @@ interface ButtonProps {
     size?: 'small' | 'medium' | 'large' | 'image';
     onClick: () => void;
     imageSrc?: string;   // Para la imagen en ImageButton
-    icon?: JSX.Element;
+    icon?: string;
+    linkname?: string;
 }
-const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick, imageSrc, icon}) => {
+const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick, imageSrc, icon, linkname}) => {
     const getButtonClass = () => {
         let baseClass = 'btn';
         switch (variant) {
@@ -37,18 +38,20 @@ const Button: React.FC<ButtonProps> = ({ label,  variant, size, onClick, imageSr
         return baseClass;
     };
       return (
+        <a href={linkname} target="_blank" rel="noopener noreferrer">
         <button className={getButtonClass()} onClick={onClick}>
           {/* Renderizar imagen si es un ImageButton */}
           {variant === 'ImageButton' && imageSrc && (
             <img src={imageSrc} alt="ButtonImage" className="button-image" />
           )}
           {/* Renderizar ícono si es un IconButton */}
-          {variant === 'IconButton' && icon && (
-            <span className="button-icon">{icon}</span>
+          {variant === 'IconButton' && icon && linkname && (
+           <i className={icon} ></i>
           )}
           {/* Mostrar el texto (label) */}
           {label}
         </button>
+        </a>
       );
     };
     

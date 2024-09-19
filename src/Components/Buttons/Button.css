@@ -34,8 +34,7 @@
     border: none;
     background-color: transparent; /* O el color que desees */
     cursor: pointer;
-    border-color: white;
-    border-style: solid;
+  
   }
   
   .btn-Img img {
