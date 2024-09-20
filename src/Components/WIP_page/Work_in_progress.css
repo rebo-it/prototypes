@@ -1,0 +1,68 @@
+.WipContainer{
+    width: 1000px;
+    align-items: top;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+    padding-bottom: 0;
+    margin: auto;
+   
+    /*background-image: url('/public/Assets/FondoBlanco.jpg');
+	background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	height: 100vh; /* Asegura que la imagen ocupe el 100% de la altura */
+	width: 100%;
+	margin: 0;
+}
+.imageContainer{
+
+    margin: 0;
+    background-color: white;
+}
+.imageContainer img{
+    height: 150px;
+    object-fit: contain;
+    background-color: white;
+    
+}
+.MessageCones{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.WipMessage{
+    color: white;
+    font-size: 40px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.WipText{
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+}
+.bi{
+    color: white;
+
+}
+.Cuerpo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ImageConstruction{
+    width: 500px;
+}

@@ -1,27 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './Components/LandingPage';
+import SignUpPage from './Components/Sign-up-page/SignUpPage';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import WorkInProgress from "./Components/WIP_page/Work_in_progress";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-          <br/>
-          Main branch.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+     <Routes>
+        <Route path="/signup" element={<WorkInProgress />} />
+        <Route path="*" element={<LandingPage />} />
+        <Route path="/WIP" element={<SignUpPage />} />
+        
+        
+        
+     </Routes>
+    </Router>
+
   );
 }
 
