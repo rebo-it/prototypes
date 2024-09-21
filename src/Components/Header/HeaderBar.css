@@ -1,0 +1,27 @@
+.HeaderContainer{
+    display: flex;
+    flex-direction: column;
+    
+    height: 145px;
+    width: 100%;
+    
+    margin: 0;
+}
+.ContactInfo{
+    display: flex;
+    background-color: rgba(33, 33, 26, 1);
+    height: 45px;
+    width: 100%;
+}
+.LogoContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(217, 28, 28, 1);
+    width: 100%;
+    height: 100px;
+    
+}
+.Logo{
+    object-fit: contain;
+    padding-left: 70px;
+}
