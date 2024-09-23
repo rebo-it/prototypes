@@ -17,10 +17,13 @@ const BodyStructure: react.FC<BodyStructureprops>=() =>{
 					</div>
 					<div className="Top3">
 						<div className="Button1Top3">
-							<BodyTop1Button label="VER PRODUCTOS" ContactLink="" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white"/>
+							<BodyTop1Button label="contacto@rebo.mx" ContactLink="mailto:contacto@rebo.mx" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white"/>
 						</div>
 						<div className="Button2Top3">
-							<BodyTop1Button label="COMPRA AHORA" ContactLink="" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)"/>
+							<BodyTop1Button label="edgar.mtz@rebo.mx" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)"/>
+						</div>
+						<div className="Button3Top3">
+							<BodyTop1Button label="55 6158 5215" ContactLink="https://wa.me/525561585215" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)"/>
 						</div>
 					</div>
 
