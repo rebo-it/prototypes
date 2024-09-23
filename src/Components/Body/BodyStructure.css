@@ -1,5 +1,6 @@
 .TopBody{
 	display: flex;
+	flex-direction: column;
 	background-image: url('../Figma Components/grupo-rebo-hero-1 1.png');
 	background-size: cover; /* Hace que la imagen cubra toda la pantalla */
 	background-position: center; /* Centra la imagen */
@@ -8,4 +9,19 @@
 	width: 100%;
 	margin: 0;
 
+}
+.Top1{
+	display: flex;
+
+}
+.LogoReboTop{
+	padding-left: 100px;
+	padding-top: 150px;
+	margin: 0;
+}
+.Top2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
 }
