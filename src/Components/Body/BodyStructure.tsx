@@ -23,7 +23,7 @@ const BodyStructure: react.FC<BodyStructureprops>=() =>{
 							<BodyTop1Button label="edgar.mtz@rebo.mx" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)"/>
 						</div>
 						<div className="Button3Top3">
-							<BodyTop1Button label="55 6158 5215" ContactLink="https://wa.me/525561585215" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)"/>
+							<BodyTop1Button label="55 6158 5215" ContactLink="https://wa.me/525561585215" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white"/>
 						</div>
 					</div>
 

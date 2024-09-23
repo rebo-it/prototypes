@@ -21,6 +21,7 @@
 	cursor: pointer;
 }
 .Top2{
+	align-items: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 100px;
 	font-weight: bold;
