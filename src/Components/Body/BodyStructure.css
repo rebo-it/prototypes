@@ -1,5 +1,11 @@
 .TopBody{
+	display: flex;
 	background-image: url('../Figma Components/grupo-rebo-hero-1 1.png');
- 	width: 100%;
+	background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	height: 100vh; /* Asegura que la imagen ocupe el 100% de la altura */
+	width: 100%;
+	margin: 0;
 
 }
