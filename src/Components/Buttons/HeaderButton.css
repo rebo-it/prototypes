@@ -9,14 +9,17 @@
 
 }
 .ContactButton:hover {
-    background-color: rgb(255, 255, 255);
+    
     opacity: 0.6;
 }
-
+.GeneralLink{
+    text-decoration: none;
+}
 .Paragraph{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
     color: white;
     text-decoration: none;
+    margin: 0;
 }
