@@ -1,0 +1,23 @@
+.Top1Button{
+    border: none;
+    width: 250px;
+    height: 70px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.ContactButton:hover {
+    
+    opacity: 0.6;
+}
+.GeneralLink{
+    text-decoration: none;
+}
+.Paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
