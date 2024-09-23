@@ -6,8 +6,13 @@ import BodyStructure from './Components/Body/BodyStructure';
 function App() {
   return (
     <div className="App">
-      <HeaderBar/>
-      <BodyStructure/>
+      <div className='HeaderApp'>
+        <HeaderBar/>
+      </div>
+      <div className='BodyApp'>
+       <BodyStructure/>
+      </div>
+      
     </div>
   );
 }
