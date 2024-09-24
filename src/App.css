@@ -16,6 +16,10 @@
 @media (max-width: 100%) {
   /* Estilos específicos para móviles */
 }
+@media (min-width: 100%) {
+  /* Estilos específicos para móviles */
+}
+
 
 
 .App-header {

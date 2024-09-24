@@ -1,13 +1,13 @@
 import react from "react";
-import './HeaderButton.css'
-interface HeaderButtonprops{
+import './ContactButton.css'
+interface ContactButtonprops{
     label: string;
     ContactLink: string;
     IconClass: string;
 
 
 }
-const HeaderButton: react.FC<HeaderButtonprops>=({ label, ContactLink, IconClass }) =>{
+const ContactButton: react.FC<ContactButtonprops>=({ label, ContactLink, IconClass }) =>{
     return (
         <button className="ContactButton">
             <a className="GeneralLink" href={ContactLink} target="_blank" rel="noreferrer">
@@ -20,4 +20,4 @@ const HeaderButton: react.FC<HeaderButtonprops>=({ label, ContactLink, IconClass
     );
 
 };
-export default HeaderButton;
+export default ContactButton;
