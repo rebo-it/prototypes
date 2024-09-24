@@ -13,18 +13,8 @@
 
 }
 /* Para pantallas muy pequeñas (móviles) */
-@media (max-width: 480px) {
+@media (max-width: 100%) {
   /* Estilos específicos para móviles */
-}
-
-/* Para pantallas medianas (tabletas) */
-@media (min-width: 481px) and (max-width: 768px) {
-  /* Estilos específicos para tabletas */
-}
-
-/* Para pantallas grandes (escritorios) */
-@media (min-width: 769px) {
-  /* Estilos específicos para pantallas grandes */
 }
 
 
