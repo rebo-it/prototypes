@@ -22,6 +22,8 @@
 }
 .Top2{
 	align-items: center;
+	background-color: black;
+	opacity: 0.4;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 100px;
 	font-weight: bold;
