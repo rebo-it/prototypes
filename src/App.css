@@ -10,10 +10,23 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
+/* Para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+  /* Estilos específicos para móviles */
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos específicos para tabletas */
+}
+
+/* Para pantallas grandes (escritorios) */
+@media (min-width: 769px) {
+  /* Estilos específicos para pantallas grandes */
+}
+
 
 .App-header {
   background-color: #282c34;

@@ -13,7 +13,7 @@ const BodyStructure: react.FC<BodyStructureprops>=() =>{
 					 <img className="LogoReboTop" src={require('../Figma Components/ReboTopSection.png')} alt="" />
 					</div>
 					<div className="Top2">
-						Lo sentimos, este sitio web aún se encuentra bajo construcción.
+						Lo sentimos, este sitio web aún se encuentra bajo construcción. Comúnicate con nosotros en los siguientes enlaces:
 					</div>
 					<div className="Top3">
 						<div className="Button1Top3">
