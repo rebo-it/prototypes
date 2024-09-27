@@ -4,6 +4,7 @@
     
     height: 145px;
     width: 100%;
+    min-width: none;
     
     margin: 0;
 }
