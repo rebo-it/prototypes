@@ -1,38 +1,22 @@
-.HeaderContainer{
-    display: flex;
-    flex-direction: column;
-    
-    height: 145px;
-    width: 100%;
-    min-width: none;
-    
-    margin: 0;
-}
-.ContactInfo{
-    display: flex;
-    background-color: rgba(33, 33, 26, 1);
+.ContactInfo {
     height: 45px;
-    width: 100%;
+    background-color: rgba(33, 33, 26, 1);
 }
-.LogoContainer{
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(217, 28, 28, 1);
-    background: linear-gradient(90deg, rgba(217,28,28,1) 0%, rgba(153,0,0,1) 50%);
-    width: 100%;
+
+.LogoContainer {
+    background-color:rgba(217, 28, 28, 1);
     height: 100px;
-    
+    background: linear-gradient(90deg, rgba(217, 28, 28, 1) 0%, rgba(153, 0, 0, 1) 50%);
 }
-.Logo{
-    object-fit: contain;
+
+.Logo {
     padding-left: 100px;
     padding-right: 70px;
-    width: 100%;
-    
+    object-fit: contain;
 }
-.ButtonContainer{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+.col{
+    font-size: 50px;
+}
+.ButtonContainer {
     align-items: center;
 }
