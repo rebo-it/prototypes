@@ -4,23 +4,33 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 	margin: 0;
   }
   
   .LogoReboTop {
-	max-width: 100%;
+	height: 20vh;
 	height: auto;
 	cursor: pointer;
-	padding-left: 100px;
+	padding-top: 10px;
   }
   
   .TopBody {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	gap: 50px;
+	margin: 0;
   }
+  .Top1{
+	margin: 0;
+  }
+
   .Top2{
-	height: 100px;
+	height: 20vh;
+	object-fit: contain;
+    font-size: 5vh;
+	height: 20vh;
 	opacity: 0.6;
+	margin: 0%;
   }

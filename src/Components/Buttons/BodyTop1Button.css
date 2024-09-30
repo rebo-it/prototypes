@@ -1,12 +1,13 @@
 .Top1Button{
     border: none;
-    width: 250px;
-    height: 70px;
+    height: 10vh;
+    width: 15vw;
+    min-width: 3vw;
     cursor: pointer;
     text-decoration: none;
 
 }
-.ContactButton:hover {
+.Top1Button:hover {
     
     opacity: 0.6;
 }
@@ -15,7 +16,9 @@
 }
 .Paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    object-fit: contain;
+    height: auto;
+    width: auto;
     font-weight: bold;
     color: white;
     text-decoration: none;

@@ -10,7 +10,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 			<div className="ContactInfo bg-dark d-flex align-items-center">
 				{/* Información de contacto aquí */}
 			</div>
-			<div className="LogoContainer d-flex align-items-center justify-content-between bg-gradient">
+			<div className="LogoContainer d-flex align-items-center justify-content-between ">
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3">
 					{/* Botones o enlaces aquí */}
