@@ -1,26 +1,4 @@
-.Top1Button{
-    border: none;
-    height: 10vh;
-    width: 15vw;
-    min-width: 3vw;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-.Top1Button:hover {
-    
-    opacity: 0.6;
-}
-.GeneralLink{
-    text-decoration: none;
-}
-.Paragraph{
-    font-family: 'Times New Roman', Times, serif;
-    object-fit: contain;
-    height: auto;
-    width: auto;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    margin: 0;
+.btn{
+    border-radius: none;
+    height: 6vh;
 }

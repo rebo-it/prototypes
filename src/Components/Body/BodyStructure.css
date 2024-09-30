@@ -9,17 +9,17 @@
   }
   
   .LogoReboTop {
-	height: 20vh;
+	
 	height: auto;
 	cursor: pointer;
-	padding-top: 10px;
+	padding-top: 2vh;
   }
   
   .TopBody {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	gap: 50px;
+	gap: 6vh;
 	margin: 0;
   }
   .Top1{
@@ -27,10 +27,13 @@
   }
 
   .Top2{
-	height: 20vh;
+	height: auto;
 	object-fit: contain;
     font-size: 4vh;
 	height: 20vh;
 	opacity: 0.6;
 	margin: 0%;
+  }
+  .Top3{
+	gap: 10px;
   }
