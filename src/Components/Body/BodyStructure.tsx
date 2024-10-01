@@ -8,12 +8,12 @@ const BodyStructure: React.FC = () => {
     <div className="FullBody container-fluid bg-image">
       <div className="TopBody">
         <div className="Top1 row justify-content-left">
-          <div className="col text-start">
-            <img className="LogoReboTop img-fluid" src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
+          <div className="col text-center">
+            <img className="LogoReboTop img-fluid" src={require('../Figma Components/loading-loading-forever.gif')} alt="Logo" />
           </div>
         </div>
-        <div className="Top2 row justify-content-center text-wrap py-3 bg-dark text-white" > 
-		<p className="h5 h-md2"> 
+        <div className="Top2 row justify-content-center text-wrap py-3  text-black" > 
+		<p className="h4 h-md2"> 
         Lo sentimos, este sitio web aún se encuentra bajo construcción. Comúnicate con nosotros en los siguientes enlaces:
     </p>
         </div>

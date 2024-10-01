@@ -1,5 +1,10 @@
 .btn{
     border-radius: none;
     height: 6vh;
+    font-weight: bold;
+    width: 200px;
     
+}
+.btn:hover{
+    opacity: 0.6;
 }
