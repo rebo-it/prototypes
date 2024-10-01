@@ -12,7 +12,7 @@ const BodyStructure: React.FC = () => {
             <img className="LogoReboTop img-fluid" src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
           </div>
         </div>
-        <div className="Top2 row justify-content-center text-center py-3 bg-dark text-white"> 
+        <div className="Top2 row justify-content-center text-wrap py-3 bg-dark text-white" > 
 		<p className="h5 h-md2"> 
         Lo sentimos, este sitio web aún se encuentra bajo construcción. Comúnicate con nosotros en los siguientes enlaces:
     </p>
