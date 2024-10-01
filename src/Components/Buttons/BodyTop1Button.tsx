@@ -14,7 +14,7 @@ const BodyTop1Button: React.FC<BodyTop1Buttonprops> = ({ label, ContactLink, But
         <a href={ContactLink} 
            target="_blank" 
            rel="noreferrer" 
-           className="btn btn-block text-center btn-md" 
+           className="btn btn-block text-center  btn-md" 
            style={{ backgroundColor: ButtonColor, color: TextColor, maxWidth: '100%', whiteSpace: 'normal', wordWrap: 'break-word', fontSize:'2.5vh', }}>
             {label}
         </a>
