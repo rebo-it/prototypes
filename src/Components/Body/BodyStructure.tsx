@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstr
 
 const BodyStructure: React.FC = () => {
   return (
-    <div className="FullBody container-fluid">
+    <div className="FullBody container-fluid bg-image">
       <div className="TopBody">
         <div className="Top1 row justify-content-left">
           <div className="col text-center">
