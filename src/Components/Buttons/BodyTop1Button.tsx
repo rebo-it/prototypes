@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap en tu proyecto
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './BodyTop1Button.css';
 
 interface BodyTop1Buttonprops {
@@ -11,7 +11,11 @@ interface BodyTop1Buttonprops {
 
 const BodyTop1Button: React.FC<BodyTop1Buttonprops> = ({ label, ContactLink, ButtonColor, TextColor }) => {
     return (
-        <a href={ContactLink} target="_blank" rel="noreferrer" className="btn" style={{ backgroundColor: ButtonColor, color: TextColor }}>
+        <a href={ContactLink} 
+           target="_blank" 
+           rel="noreferrer" 
+           className="btn btn-block text-center btn-sm" 
+           style={{ backgroundColor: ButtonColor, color: TextColor, maxWidth: '100%', whiteSpace: 'normal', wordWrap: 'break-word', fontSize:'2.5vh' }}>
             {label}
         </a>
     );

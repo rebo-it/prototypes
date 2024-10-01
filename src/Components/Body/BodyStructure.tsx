@@ -13,7 +13,7 @@ const BodyStructure: React.FC = () => {
           </div>
         </div>
         <div className="Top2 row justify-content-center text-center py-3 bg-dark text-white"> 
-			<p className="h2">Lo sentimos, este sitio web aún se encuentra bajo construcción. Comúnicate con nosotros en los siguientes enlaces:</p>
+			<p className="text-sm-center">Lo sentimos, este sitio web aún se encuentra bajo construcción. Comúnicate con nosotros en los siguientes enlaces:</p>
 		
         </div>
         <div className="Top3 row justify-content-center mt-4">
