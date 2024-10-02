@@ -9,7 +9,7 @@ const BodyStructure: React.FC = () => {
       <div className="TopBody">
         <div className="Top1 row justify-content-left">
           <div className="col text-center">
-            <img className="LogoReboTop img-fluid" src={require('../Figma Components/loading-loading-forever.gif')} alt="Logo" />
+            <img className="LogoReboTop img-fluid" src={require('../Figma Components/loader-loading.gif')} alt="Logo" />
           </div>
         </div>
         <div className="Top2 row justify-content-center text-wrap py-3  text-black" > 
