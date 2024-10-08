@@ -12,8 +12,8 @@ const BodyStructure: React.FC = () => {
             <img className="LogoReboTop img-fluid" src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
           </div>
         </div>
-        <div className="Top2 row justify-content-center text-wrap py-3  text-black" > 
-		     <p className="h1 h-md2"> 
+        <div className="Top2 row justify-content-start text-wrap py-3  text-black" > 
+		     <p className="h1 h-md2 text-start"> 
             Equipo y calzado de seguridad industrial
           </p>
         </div>
@@ -27,6 +27,9 @@ const BodyStructure: React.FC = () => {
 
         </div>
       </div>
+     
+        <img className="Garantia img-fluid" src={require('../Figma Components/Rectangle 21.png')} alt="Logo" />
+
       <div className="MidBody">
         <div className="Top1 row justify-content-left">
           <div className="col text-start">

@@ -1,5 +1,6 @@
 .FullBody{
 	padding: 0;
+	position: relative;
 }
 .TopBody {
 	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
@@ -44,20 +45,28 @@
 	cursor: pointer;
 	
   }
+  .col text-start{
+	margin: 0;
+	padding: 0;
+  }
   .Top2{
 	object-fit: contain;
 	height: 20vh;
 	margin: 0%;
+	padding-left: 100px;
   }
   .h1{
 	color: white;
-	font-size: ;
+	margin: 0;
+	max-width: 700px;
+	
   }
 
   .Top3{
+	margin: 0;
 	gap: 10px;
 	padding-left: 100px;
-	padding-left: 100px;
+
   }
   .col-12{
 	margin: 0;
@@ -65,4 +74,12 @@
 }
 .MidBody{
 	background-color: black;
+}
+.Garantia{
+	position: absolute;
+	top: 65%; /* Coloca la imagen justo al final del primer div */
+	left: 50%; /* Centra la imagen horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+	 /* Ancho de la imagen */
+	z-index: 10; /* Asegura que la imagen esté por encima de ambos divs */
 }
