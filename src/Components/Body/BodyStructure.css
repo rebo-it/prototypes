@@ -1,4 +1,7 @@
-.FullBody {
+.FullBody{
+	padding: 0;
+}
+.TopBody {
 	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
 	background-size: cover; 
 	background-position: center;
@@ -9,7 +12,7 @@
 	padding: 0;
   }
   
-  .FullBody::before {
+  .TopBody::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -24,31 +27,42 @@
 	z-index: -1; /* Asegúrate de que la imagen de fondo quede detrás del contenido */
   }
   
-  .LogoReboTop {
-	
-	height: 14vh;
-	cursor: pointer;
-	padding-top: 5vh;
-  }
-  
   .TopBody {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 767px;
 	gap: 6vh;
 	margin: 0;
   }
   .Top1{
 	margin: 0;
+	padding-top: 120px;
   }
-  
+  .LogoReboTop {
+	padding-left: 100px;
+	height: 10vh;
+	cursor: pointer;
+	
+  }
   .Top2{
 	object-fit: contain;
 	height: 20vh;
 	margin: 0%;
-
+  }
+  .h1{
+	color: white;
+	font-size: ;
   }
 
   .Top3{
 	gap: 10px;
+	padding-left: 100px;
+	padding-left: 100px;
   }
+  .col-12{
+	margin: 0;
+	padding: 0;
+}
+.MidBody{
+	background-color: black;
+}
