@@ -20,13 +20,13 @@
 	background-size: cover; 
 	background-position: center;
 	background-repeat: no-repeat;
-	opacity: 0.6; /* Aplica la opacidad solo al pseudo-elemento */
+	/*opacity: 0.6;  Aplica la opacidad solo al pseudo-elemento */
 	z-index: -1; /* Asegúrate de que la imagen de fondo quede detrás del contenido */
   }
   
   .LogoReboTop {
 	
-	height: 20vh;
+	height: 14vh;
 	cursor: pointer;
 	padding-top: 5vh;
   }
