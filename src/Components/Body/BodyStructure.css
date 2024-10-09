@@ -74,12 +74,51 @@
 }
 .MidBody{
 	background-color: black;
+	height: 915px;
+	display: flex;
+	flex-direction: column;
+	height: 767px;
+	gap: 6vh;
+	margin: 0;
 }
 .Garantia{
 	position: absolute;
-	top: 65%; /* Coloca la imagen justo al final del primer div */
+	top: 24%; /* Coloca la imagen justo al final del primer div */
 	left: 50%; /* Centra la imagen horizontalmente */
 	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
 	 /* Ancho de la imagen */
 	z-index: 10; /* Asegura que la imagen esté por encima de ambos divs */
+}
+.line-1{
+	height: 5px;
+	background-color:white ;
+}
+
+.Top4{
+	margin: 0;
+	padding-top: 150px;
+}
+.Top5{
+	margin: 0%;
+
+}
+.Top6{
+	margin: 0%;
+	display: flex;
+	gap: 50px;
+}
+.MidBody2{
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 522px;
+}
+.MidBody3{
+	background-color: rgba(33, 33, 26, 1);
+	height: 768px;
+}
+.EndBody{
+	height: 325px;
+	background-color: black;
 }

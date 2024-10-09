@@ -1,11 +1,12 @@
 .ContactButton{
-    background: none;
+    background-color: black;
     border: none;
     width: 250px;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    color: white;
 
 }
 .ContactButton:hover {
@@ -16,8 +17,8 @@
     text-decoration: none;
 }
 .Paragraph{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
