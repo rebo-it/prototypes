@@ -42,14 +42,14 @@ const BodyStructure: React.FC = () => {
             Equipo y calzado de seguridad industrial
           </p>
         </div>
-        <div className="Top6 row justify-content-center mt-4">
-          <div className="col-12 col-sm-auto">
+        <div className="Top6 row  mt-4">
+          <div className="col-4 col-xs-auto">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="col-12 col-sm-auto">
+          <div className="col-4 col-xs-auto">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="col-12 col-sm-auto">
+          <div className="col-4 col-xs-auto">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
         </div>
@@ -66,10 +66,10 @@ const BodyStructure: React.FC = () => {
           </p>
         </div>
         <div className="Top9 row justify-content-center mt-4">
-          <div className="col-12 col-sm-auto">
+          <div className="col-6 col-sm-auto">
           <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
           </div>
-          <div className="col-12 col-sm-auto">
+          <div className="col-6 col-sm-auto">
           <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
           </div>
         </div>
@@ -78,19 +78,19 @@ const BodyStructure: React.FC = () => {
         <div className="LeftSectionMid3 col-6 ">
           <div className="Top10 row justify-content-left">
             <div className="Etiqueta-Productos col h2 text-white text-center">
-              Acerca de nosotros
+              
             </div>
           </div>
           <div className="Top11 row justify-content-center text-wrap py-3  text-black" > 
           <p className="h3 text-white text-center" > 
-              Equipo y calzado de seguridad industrial
+             
             </p>
           </div>
           <div className="Top12 row justify-content-center mt-4">
-            <div className="col-12 col-sm-auto">
+            <div className="col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
-            <div className="col-12 col-sm-auto">
+            <div className="col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
           </div>
@@ -102,22 +102,22 @@ const BodyStructure: React.FC = () => {
         </div>
         
       </div>
-      <div className="EndBody">
-        <div className="Top13 row justify-content-left">
-          <div className="Etiqueta-Productos col h2 text-white text-center">
-            PRODUCTOS
+      <div className="EndBody row">
+        <div className="Top13 col-4 justify-content-left">
+          <div className="LogoRebo col h2 text-white text-center align-items-center">
+            <img className="LogoReboEnd" src={require('../Figma Components/Frame.png')} alt="Logo" />
           </div>
         </div>
-        <div className="Top14 row justify-content-center text-wrap py-3  text-black" > 
+        <div className="Top14 col-4 justify-content-center text-wrap py-3  text-black" > 
 		     <p className="h3 text-white text-center" > 
-            Equipo y calzado de seguridad industrial
+            
           </p>
         </div>
-        <div className="Top15 row justify-content-center mt-4">
-          <div className="col-12 col-sm-auto">
+        <div className="Top15 row col-4 justify-content-center mt-4">
+          <div className="col-6 col-sm-auto">
           <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
           </div>
-          <div className="col-12 col-sm-auto">
+          <div className="col-6 col-sm-auto">
           <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
           </div>
         </div>

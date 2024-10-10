@@ -15,7 +15,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 			<div className="LogoContainer d-flex align-items-center justify-content-between ">
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3">
-					{<HeaderButton label="hola mundo" IconClass="bi bi-whatsapp" ContactLink="" IconColor="white"/>}
+					{<HeaderButton label="" IconClass="bi bi-whatsapp" ContactLink="" IconColor="white"/>}
 				</div>
 			</div>
 		</div>

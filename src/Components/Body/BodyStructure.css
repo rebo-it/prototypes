@@ -1,3 +1,6 @@
+div{
+	font-family:Ubuntu;
+}
 .FullBody{
 	padding: 0;
 	position: relative;
@@ -80,6 +83,7 @@
 	height: 767px;
 	gap: 6vh;
 	margin: 0;
+	padding: 0;
 }
 .Garantia{
 	position: absolute;
@@ -114,11 +118,30 @@
 	background-repeat: no-repeat;
 	height: 522px;
 }
+.Top9{
+	gap: 20px;
+}
 .MidBody3{
 	background-color: rgba(33, 33, 26, 1);
 	height: 768px;
 }
+.Top{
+	margin: 0%;
+	padding: 0%;
+}
 .EndBody{
 	height: 325px;
 	background-color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.LogoReboEnd{
+	padding-top: 10vh;
+	height: 30vh;
+	width: 15vw;
+}
+.Top15{
+	gap: 10vw;
+	gap: 10vh;
 }
