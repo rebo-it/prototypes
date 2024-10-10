@@ -29,7 +29,6 @@ const BodyStructure: React.FC = () => {
 
         </div>
       </div>
-     
         <img className="Garantia img-fluid" src={require('../Figma Components/Rectangle 21.png')} alt="Logo" />
       <div className="line-1"></div>
       <div className="MidBody">
@@ -75,25 +74,33 @@ const BodyStructure: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="MidBody3">
-        <div className="Top10 row justify-content-left">
-          <div className="Etiqueta-Productos col h2 text-white text-center">
-            PRODUCTOS
+      <div className="MidBody3 row justify-content-center">
+        <div className="LeftSectionMid3 col-6 ">
+          <div className="Top10 row justify-content-left">
+            <div className="Etiqueta-Productos col h2 text-white text-center">
+              Acerca de nosotros
+            </div>
+          </div>
+          <div className="Top11 row justify-content-center text-wrap py-3  text-black" > 
+          <p className="h3 text-white text-center" > 
+              Equipo y calzado de seguridad industrial
+            </p>
+          </div>
+          <div className="Top12 row justify-content-center mt-4">
+            <div className="col-12 col-sm-auto">
+            <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+            </div>
+            <div className="col-12 col-sm-auto">
+            <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+            </div>
           </div>
         </div>
-        <div className="Top11 row justify-content-center text-wrap py-3  text-black" > 
-		     <p className="h3 text-white text-center" > 
-            Equipo y calzado de seguridad industrial
-          </p>
+        <div className="RightSectionMid3 position-relative col-6 d-flex justify-content-center align-items-center">
+         <img className="ReboHero3 img-fluid z-1 position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
+         <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
+         <img className="Garantia img-fluid z-0 position-absolute top-50 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
         </div>
-        <div className="Top12 row justify-content-center mt-4">
-          <div className="col-12 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
-          </div>
-          <div className="col-12 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
-          </div>
-        </div>
+        
       </div>
       <div className="EndBody">
         <div className="Top13 row justify-content-left">
