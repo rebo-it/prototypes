@@ -4,6 +4,7 @@ import BodyTop1Button from "../Buttons/BodyTop1Button";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
 import LandingPageProducts from "../Cards/LandingPageProducts";
 import Image1 from "/WIP/prototypes/src/images/casco1.png"
+import ContactButton from "../Buttons/ContactButton";
 
 const BodyStructure: React.FC = () => {
   return (
@@ -42,7 +43,7 @@ const BodyStructure: React.FC = () => {
             Equipo y calzado de seguridad industrial
           </p>
         </div>
-        <div className="Top6 row  mt-4">
+        <div className="Top6 row justify-content-center  mt-4">
           <div className="col-4 col-xs-auto">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
@@ -50,29 +51,36 @@ const BodyStructure: React.FC = () => {
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
           <div className="col-4 col-xs-auto">
-          <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          
           </div>
         </div>
       </div>
       <div className="MidBody2 row justify-content-end">
-        <div className="Top7 row justify-content-end">
-          <div className="Etiqueta-Productos col h2 text-white text-center">
-            PRODUCTOS
+        <div className=" MidBody2Left col 6  justify-content-start">
+          <img className="rectangulo23" src={require('../Figma Components/Rectangle 23.png')} alt="Rectangle" />
+        </div>
+        <div className="MidBody2Right col 6 align-items-center position-relative">
+          <img className="rectangulo22 z-0 position-absolute" src={require('../Figma Components/Rectangle 22.png')} alt="Rectangle" />
+          <div className="Top7  justify-content-end">
+            <div className="Etiqueta-Productos col h2 text-white text-center">
+              PRODUCTOS
+            </div>
+          </div>
+          <div className="Top8   row justify-content-center text-wrap py-3  text-black" > 
+          <p className="h3 text-white text-center" > 
+              Equipo y calzado de seguridad industrial
+            </p>
+          </div>
+          <div className="Top9 z-1  row justify-content-center mt-4">
+            <div className="col-6 col-sm-auto">
+            <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+            </div>
+            <div className="col-6 col-sm-auto">
+            <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+            </div>
           </div>
         </div>
-        <div className="Top8 row justify-content-center text-wrap py-3  text-black" > 
-		     <p className="h3 text-white text-center" > 
-            Equipo y calzado de seguridad industrial
-          </p>
-        </div>
-        <div className="Top9 row justify-content-center mt-4">
-          <div className="col-6 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
-          </div>
-          <div className="col-6 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
-          </div>
-        </div>
+        
       </div>
       <div className="MidBody3 row justify-content-center">
         <div className="LeftSectionMid3 col-6 ">
@@ -102,23 +110,39 @@ const BodyStructure: React.FC = () => {
         </div>
         
       </div>
-      <div className="EndBody row">
+      <div className="EndBody row align-items-center">
         <div className="Top13 col-4 justify-content-left">
           <div className="LogoRebo col h2 text-white text-center align-items-center">
             <img className="LogoReboEnd" src={require('../Figma Components/Frame.png')} alt="Logo" />
           </div>
         </div>
         <div className="Top14 col-4 justify-content-center text-wrap py-3  text-black" > 
-		     <p className="h3 text-white text-center" > 
-            
+		     <p className="h1 text-white text-start" > 
+            PRODUCTOS
+          </p>
+          <p className="h3 text-white text-start" > 
+            Uniformes industriales
+          </p>
+          <p className="h3 text-white text-start" > 
+            Equipo de protección personal
+          </p>
+          <p className="h3 text-white text-start" > 
+            Calzado industrial
+          </p>
+          <p className="h3 text-white text-start" > 
+            Herramientas
           </p>
         </div>
-        <div className="Top15 row col-4 justify-content-center mt-4">
-          <div className="col-6 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+        <div className="Top15 col-4  justify-content-top mt-4">
+          <p className="h1 text-white"> CONTACTO</p>
+          <div className="col-4 col-sm-auto">
+          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
           </div>
-          <div className="col-6 col-sm-auto">
-          <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+          <div className="col-4 col-sm-auto">
+          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
+          </div>
+          <div className="col-4 col-sm-auto">
+          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
           </div>
         </div>
       </div>
