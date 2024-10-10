@@ -92,24 +92,23 @@ div{
 }
 .MidBody2Left{
 	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
-	background-size: cover; 
-	background-position: center;
+	background-image: url('../Figma Components/Rectangle\ 23.png');
+	
+	background-position: start;
 	background-repeat: no-repeat;
 }
-.MidBody2Left::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-image: url('../Figma Components/Rectangle\ 23.png');
-	background-size: cover; 
-	background-position: center;
+
+  .MidBody2Right{
+	position: relative;
+	background-image: url('../Figma Components/Rectangle\ 22.png');
+	/* Asegura que el pseudo-elemento se posicione correctamente */
+
+	background-position: end;
 	background-repeat: no-repeat;
-	/*opacity: 0.6;  Aplica la opacidad solo al pseudo-elemento */
-	z-index: -1; /* Asegúrate de que la imagen de fondo quede detrás del contenido */
-  }
+}
+
+
+  
 .Garantia{
 	position: absolute;
 	top: 24%; /* Coloca la imagen justo al final del primer div */

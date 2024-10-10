@@ -56,11 +56,11 @@ const BodyStructure: React.FC = () => {
         </div>
       </div>
       <div className="MidBody2 row justify-content-end">
-        <div className=" MidBody2Left col 6  justify-content-start">
-          <img className="rectangulo23" src={require('../Figma Components/Rectangle 23.png')} alt="Rectangle" />
+        <div className=" MidBody2Left col-4  justify-content-start">
+          
         </div>
-        <div className="MidBody2Right col 6 align-items-center position-relative">
-          <img className="rectangulo22 z-0 position-absolute" src={require('../Figma Components/Rectangle 22.png')} alt="Rectangle" />
+        <div className="MidBody2Right col-8 align-items-center position-relative">
+          
           <div className="Top7  justify-content-end">
             <div className="Etiqueta-Productos col h2 text-white text-center">
               PRODUCTOS
