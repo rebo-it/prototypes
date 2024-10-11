@@ -1,7 +1,7 @@
 .ContactButton{
     background: none;
     border: none;
-    width: auto;
+    width: fit-content;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
