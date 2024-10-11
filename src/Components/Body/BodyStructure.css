@@ -98,13 +98,19 @@ div{
 	background-repeat: no-repeat;
 }
 
-  .MidBody2Right{
+.MidBody2Right{
 	position: relative;
 	background-image: url('../Figma Components/Rectangle\ 22.png');
 	/* Asegura que el pseudo-elemento se posicione correctamente */
 
 	background-position: end;
 	background-repeat: no-repeat;
+}
+.Top12{
+	gap: 30px;
+}
+.ButtonMid{
+	width: fit-content;
 }
 
 
@@ -133,7 +139,11 @@ div{
 .Top6{
 	margin: 0%;
 	display: flex;
-	gap: 50px;
+
+}
+.card1{
+	display: inline;
+	align-items: center;
 }
 .MidBody2{
 	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
@@ -162,10 +172,6 @@ div{
 }
 .LogoReboEnd{
 	
-	height: 25vh;
+	height: 15vh;
 	width: 15vw;
-}
-.Top15{
-	gap: 10vw;
-	gap: 10vh;
 }

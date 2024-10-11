@@ -12,8 +12,8 @@ const LandingPageProducts: react.FC<LandingPageProductsprops>=({ label, ContactL
 <div className="card sm" >
   <img src={require("/WIP/prototypes/src/images/casco1.png")} className="ImageEquipment card-img-top img-fluid" alt="..."/>
   <div className="card-body">
-    <h5 className="ProductName card-title text-white">{label}</h5>
-    <a href={ContactLink} className="CardLink btn " style={{width:'8rem', height:'1.5rem'}}>{label2} </a>
+    <h5 className="ProductName card-title text-white" style={{fontSize:'calc(1.25rem+0.5vw)'}}>{label}</h5>
+    <a href={ContactLink} className="CardLink btn " >{label2} </a>
   </div>
 </div>
     );

@@ -43,15 +43,15 @@ const BodyStructure: React.FC = () => {
             Equipo y calzado de seguridad industrial
           </p>
         </div>
-        <div className="Top6 row justify-content-center  mt-4">
-          <div className="col-4 col-xs-auto">
+        <div className="Top6 row  mt-4 justify-content-end">
+          <div className="card1 col-4 col-xs-auto ">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="col-4 col-xs-auto">
+          <div className="card2 col-4 col-xs-auto">
           <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="col-4 col-xs-auto">
-          
+          <div className="card3 col-4 col-xs-auto">
+          <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
         </div>
       </div>
@@ -72,10 +72,10 @@ const BodyStructure: React.FC = () => {
             </p>
           </div>
           <div className="Top9 z-1  row justify-content-center mt-4">
-            <div className="col-6 col-sm-auto">
+            <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
-            <div className="col-6 col-sm-auto">
+            <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
           </div>
@@ -95,10 +95,10 @@ const BodyStructure: React.FC = () => {
             </p>
           </div>
           <div className="Top12 row justify-content-center mt-4">
-            <div className="col-6 col-sm-auto">
+            <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
-            <div className="col-6 col-sm-auto">
+            <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
           </div>
@@ -113,7 +113,7 @@ const BodyStructure: React.FC = () => {
       <div className="EndBody row align-items-center">
         <div className="Top13 col-4 justify-content-left">
           <div className="LogoRebo col h2 text-white text-center align-items-center">
-            <img className="LogoReboEnd" src={require('../Figma Components/Frame.png')} alt="Logo" />
+            <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />
           </div>
         </div>
         <div className="Top14 col-4 justify-content-center text-wrap py-3  text-black" > 
@@ -129,12 +129,12 @@ const BodyStructure: React.FC = () => {
           <p className="h3 text-white text-start" > 
             Calzado industrial
           </p>
-          <p className="h3 text-white text-start" > 
+          <p className="h3 h-md2 text-white text-start" > 
             Herramientas
           </p>
         </div>
         <div className="Top15 col-4  justify-content-top mt-4">
-          <p className="h1 text-white"> CONTACTO</p>
+          <p className="h1 h-md2 text-white"> CONTACTO</p>
           <div className="col-4 col-sm-auto">
           <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
           </div>
