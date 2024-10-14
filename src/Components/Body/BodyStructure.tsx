@@ -3,7 +3,7 @@ import './BodyStructure.css';
 import BodyTop1Button from "../Buttons/BodyTop1Button";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
 import LandingPageProducts from "../Cards/LandingPageProducts";
-import Image1 from "/WIP/prototypes/src/images/casco1.png"
+
 import ContactButton from "../Buttons/ContactButton";
 
 const BodyStructure: React.FC = () => {
