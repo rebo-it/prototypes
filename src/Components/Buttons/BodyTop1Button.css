@@ -3,8 +3,7 @@
     height: 5.5vh;
     font-weight: bold;
     width: 200px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin: 0;
     
 }
 .btn:hover{

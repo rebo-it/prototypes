@@ -1,4 +1,16 @@
-.FullBody {
+h1 h2 h3 h4 h5 h6{
+	font-family: ubuntu;
+
+}
+h
+div{
+	font-family:Ubuntu;
+}
+.FullBody{
+	padding: 0;
+	position: relative;
+}
+.TopBody {
 	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
 	background-size: cover; 
 	background-position: center;
@@ -9,7 +21,7 @@
 	padding: 0;
   }
   
-  .FullBody::before {
+  .TopBody::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -20,35 +32,146 @@
 	background-size: cover; 
 	background-position: center;
 	background-repeat: no-repeat;
-	opacity: 0.6; /* Aplica la opacidad solo al pseudo-elemento */
+	/*opacity: 0.6;  Aplica la opacidad solo al pseudo-elemento */
 	z-index: -1; /* Asegúrate de que la imagen de fondo quede detrás del contenido */
-  }
-  
-  .LogoReboTop {
-	
-	height: 20vh;
-	cursor: pointer;
-	padding-top: 5vh;
   }
   
   .TopBody {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 767px;
 	gap: 6vh;
 	margin: 0;
   }
   .Top1{
 	margin: 0;
+	padding-top: 120px;
   }
-  
+  .LogoReboTop {
+	padding-left: 100px;
+	height: 10vh;
+	cursor: pointer;
+	
+  }
+  .col text-start{
+	margin: 0;
+	padding: 0;
+  }
   .Top2{
 	object-fit: contain;
 	height: 20vh;
 	margin: 0%;
-
+	padding-left: 100px;
+  }
+  .h1{
+	color: white;
+	margin: 0;
+	max-width: 700px;
+	
   }
 
   .Top3{
+	margin: 0;
 	gap: 10px;
+	padding-left: 100px;
+
   }
+  .col-12{
+	margin: 0;
+	padding: 0;
+}
+.MidBody{
+	background-color: black;
+	height: 915px;
+	display: flex;
+	flex-direction: column;
+	height: 767px;
+	gap: 6vh;
+	margin: 0;
+	padding: 0;
+}
+.MidBody2Left{
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-image: url('../Figma Components/Rectangle\ 23.png');
+	
+	background-position: start;
+	background-repeat: no-repeat;
+}
+
+.MidBody2Right{
+	position: relative;
+	background-image: url('../Figma Components/Rectangle\ 22.png');
+	/* Asegura que el pseudo-elemento se posicione correctamente */
+
+	background-position: end;
+	background-repeat: no-repeat;
+}
+.Top12{
+	gap: 30px;
+}
+.ButtonMid{
+	width: fit-content;
+}
+
+
+  
+.Garantia{
+	position: absolute;
+	top: 24%; /* Coloca la imagen justo al final del primer div */
+	left: 50%; /* Centra la imagen horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+	 /* Ancho de la imagen */
+	z-index: 10; /* Asegura que la imagen esté por encima de ambos divs */
+}
+.line-1{
+	height: 5px;
+	background-color:white ;
+}
+
+.Top4{
+	margin: 0;
+	padding-top: 150px;
+}
+.Top5{
+	margin: 0%;
+
+}
+.Top6{
+	margin: 0%;
+	display: flex;
+
+}
+.card1{
+	display: inline;
+	align-items: center;
+}
+.MidBody2{
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 522px;
+}
+.Top9{
+	gap: 20px;
+}
+.MidBody3{
+	background-color: rgba(33, 33, 26, 1);
+	height: 768px;
+}
+.Top{
+	margin: 0%;
+	padding: 0%;
+}
+.EndBody{
+	height: 325px;
+	background-color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.LogoReboEnd{
+	
+	height: 15vh;
+	width: 15vw;
+}

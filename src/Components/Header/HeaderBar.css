@@ -1,8 +1,15 @@
+.Header{
+    margin: 0%;
+    padding: 0%;
+}
 .ContactInfo {
     height: 6vh;
     background-color: rgba(33, 33, 26, 1);
 }
-
+.nav-link{
+    color: white;
+    font-family: ubuntu;
+}
 .LogoContainer {
     
     height: 15vh;
@@ -11,7 +18,7 @@
 
 .Logo {
     padding-left: 3vw;
-    padding-right: 40vw;
+
 
 }
 
