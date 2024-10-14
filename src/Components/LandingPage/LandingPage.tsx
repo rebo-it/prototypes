@@ -1,9 +1,7 @@
 import React from 'react';
-import './App.css';
-import HeaderBar from './Components/Header/HeaderBar';
-import BodyStructure from './Components/Body/BodyStructure';
-
-function App() {
+import BodyStructure from '../Body/BodyStructure';
+import HeaderBar from '../Header/HeaderBar';
+function LandingPage() {
   return (
     <div className="App">
       <div className='HeaderApp'>
@@ -17,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;
