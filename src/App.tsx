@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import HeaderBar from './Components/Header/HeaderBar';
 import BodyStructure from './Components/Body/BodyStructure';
-
+import "bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <div className="App">

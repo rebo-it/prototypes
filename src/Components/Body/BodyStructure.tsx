@@ -44,14 +44,14 @@ const BodyStructure: React.FC = () => {
           </p>
         </div>
         <div className="Top6 row  mt-4 justify-content-end">
-          <div className="card1 col-4 col-xs-auto ">
-          <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          <div className="card1 col-4 col-xs-auto justify-content-end">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="card2 col-4 col-xs-auto">
-          <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          <div className="card2 col-4 col-xs-auto justify-content-center">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
-          <div className="card3 col-4 col-xs-auto">
-          <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          <div className="card3 col-4 col-xs-auto justify-content-start">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ const BodyStructure: React.FC = () => {
         </div>
         <div className="RightSectionMid3 position-relative col-6 d-flex justify-content-center align-items-center">
          <img className="ReboHero3 img-fluid z-1 position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
-         <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
+         <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0 d-none d-md-block" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
          <img className="Garantia img-fluid z-0 position-absolute top-50 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
         </div>
         
@@ -133,16 +133,16 @@ const BodyStructure: React.FC = () => {
             Herramientas
           </p>
         </div>
-        <div className="Top15 col-4  justify-content-top mt-4">
+        <div className="Top15 col-4  justify-content-top mt-4 d-none d-sm-block">
           <p className="h1 h-md2 text-white"> CONTACTO</p>
           <div className="col-4 col-sm-auto">
           <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
           </div>
           <div className="col-4 col-sm-auto">
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
+          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-envelope"/>
           </div>
           <div className="col-4 col-sm-auto">
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
+          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-geo-alt"/>
           </div>
         </div>
       </div>

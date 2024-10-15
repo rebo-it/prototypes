@@ -9,30 +9,32 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 	return (
 		<div className="Header container-fluid p-0">
 			<div className="ContactInfo bg-dark d-flex align-items-center">
-			<nav className="navbar navbar-expand-sm ">
+			<nav className="navbar  navbar-expand">
 
 					<div className="container-fluid">
 						
-						<ul className="navbar-nav">
+						<ul className="navbar-nav ">
 							<li className="nav-item">
-							<a className="nav-link" href=""><i className="bi bi-whatsapp"></i>Link 1</a>
+							<a className="nav-link" href=""><i className="bi bi-whatsapp"></i> Link 1</a>
 							</li>
 							<li className="nav-item justify-content-end">
-							<a className="nav-link" href="">Link 2</a>
+							<a className="nav-link" href=""><i className="bi bi-geo-alt"></i> Link 2</a>
 							</li>
 							<li className="nav-item">
-							<a className="nav-link" href="">Link 3</a>
+							<a className="nav-link" href=""><i className="bi bi-envelope"></i> Link 3</a>
 							</li>
+							
 						</ul>
-					</div>
-
+					</div>					
 			</nav>
+
+	
 				
 			</div>
 			<div className="LogoContainer d-flex align-items-center justify-content-between ">
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
-					<nav className="nav  justify-content-start nav-pills flex-column flex-sm-row">
+					<nav className="nav navbar-expand-lg d-none d-lg-block justify-content-start nav-pills flex-column flex-sm-row">
 					<HeaderButton label="INICIO" IconClass="" ContactLink="" IconColor="white"/>
 					<HeaderButton label="NOSOTROS" IconClass="" ContactLink="" IconColor="white"/>
 					<HeaderButton label="PRODUCTOS+" IconClass="" ContactLink="" IconColor="white"/>
@@ -42,6 +44,23 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					</nav>
 					
 				</div>
+				<div className="offcanvas offcanvas-start offcanvas-lg" id="demo">
+					<div className="offcanvas-header">
+						<h1 className="offcanvas-title">Menú</h1>
+						<button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
+					</div>
+					<div className="offcanvas-body">
+						<HeaderButton label="INICIO" IconClass="" ContactLink="" IconColor="white"data-bs-toggle="offcanvas"/>
+						<HeaderButton label="NOSOTROS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
+						<HeaderButton label="PRODUCTOS+" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
+						<HeaderButton label="FAQS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
+						<HeaderButton label="CONTACTANOS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
+
+					</div>
+
+				</div>
+				<button className="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Menú</button>
+
 			</div>
 		</div>
 	);
