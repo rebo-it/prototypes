@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstr
 import './HeaderBar.css';
 import HeaderButton from "../Buttons/HeaderButton";
 
+
+
 interface HeaderBarprops {}
 
 const HeaderBar: React.FC<HeaderBarprops> = () => {
@@ -35,7 +37,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
 					<nav className="nav navbar-expand-lg d-none d-lg-block justify-content-start nav-pills flex-column flex-sm-row">
-					<HeaderButton label="INICIO" IconClass="" ContactLink="" IconColor="white"/>
+					<HeaderButton label="INICIO" IconClass="" ContactLink="" IconColor="white" />
 					<HeaderButton label="NOSOTROS" IconClass="" ContactLink="" IconColor="white"/>
 					<HeaderButton label="PRODUCTOS+" IconClass="" ContactLink="" IconColor="white"/>
 					<HeaderButton label="FAQS" IconClass="" ContactLink="" IconColor="white"/>

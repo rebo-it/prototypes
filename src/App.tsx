@@ -1,19 +1,22 @@
 import React from 'react';
 import './App.css';
-import HeaderBar from './Components/Header/HeaderBar';
-import BodyStructure from './Components/Body/BodyStructure';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 import "bootstrap-icons/font/bootstrap-icons.css";
+import LandingPage from './Components/LandingPage/LandingPage';
+import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
 function App() {
   return (
-    <div className="App">
-      <div className='HeaderApp'>
-        <HeaderBar/>
-      </div>
-      <div className='BodyApp'>
-       <BodyStructure/>
-      </div>
-      
-    </div>
+    <Router>
+    <Routes>
+      {/* Ruta para la página principal o de aterrizaje */}
+      <Route path="/" element={<LandingPage />} />
+
+      {/* Otras rutas */}
+      <Route path="/Nosotros" element={<NosotrosPage />} />
+     
+    </Routes>
+  </Router>
   );
 }
 
