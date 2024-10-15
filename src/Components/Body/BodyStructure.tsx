@@ -8,7 +8,7 @@ import ContactButton from "../Buttons/ContactButton";
 
 const BodyStructure: React.FC = () => {
   return (
-    <div className="FullBody container-fluid bg-image">
+    <div className="FullBody container-fluid bg-image p-0">
       <div className="TopBody">
         <div className="Top1 row justify-content-left">
           <div className="col text-start">
@@ -16,7 +16,7 @@ const BodyStructure: React.FC = () => {
           </div>
         </div>
         <div className="Top2 row justify-content-start text-wrap py-3  text-black" > 
-		     <p className="h1 h-md2 text-start"> 
+		     <p className="h1 h-md2 text-start text-white"> 
             Equipo y calzado de seguridad industrial
           </p>
         </div>
@@ -82,7 +82,7 @@ const BodyStructure: React.FC = () => {
         </div>
         
       </div>
-      <div className="MidBody3 row justify-content-center">
+      <div className="MidBody3 row justify-content-center p-0">
         <div className="LeftSectionMid3 col-6 ">
           <div className="Top10 row justify-content-left">
             <div className="Etiqueta-Productos col h2 text-white text-center">
@@ -110,7 +110,7 @@ const BodyStructure: React.FC = () => {
         </div>
         
       </div>
-      <div className="EndBody row align-items-center">
+      <div className="EndBody  row align-items-center p-0">
         <div className="Top13 col-4 justify-content-left">
           <div className="LogoRebo col h2 text-white text-center align-items-center">
             <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />
@@ -134,7 +134,7 @@ const BodyStructure: React.FC = () => {
           </p>
         </div>
         <div className="Top15 col-4  justify-content-top mt-4 d-none d-sm-block">
-          <p className="h1 h-md2 text-white"> CONTACTO</p>
+          <p className="h1 h-md2 text-white" style={{font:'ubuntu'}}> CONTACTO</p>
           <div className="col-4 col-sm-auto">
           <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
           </div>

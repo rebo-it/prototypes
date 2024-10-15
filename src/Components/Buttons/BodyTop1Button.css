@@ -4,6 +4,7 @@
     font-weight: bold;
     width: 200px;
     margin: 0;
+    min-width: fit-content;
     
 }
 .btn:hover{
