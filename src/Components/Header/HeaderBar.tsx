@@ -37,11 +37,11 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
 					<nav className="nav navbar-expand-lg d-none d-lg-block justify-content-start nav-pills flex-column flex-sm-row">
-					<HeaderButton label="INICIO" IconClass="" ContactLink="/NosotrosPage" IconColor="white" />
-					<HeaderButton label="NOSOTROS" IconClass="" ContactLink="" IconColor="white"/>
-					<HeaderButton label="PRODUCTOS+" IconClass="" ContactLink="" IconColor="white"/>
-					<HeaderButton label="FAQS" IconClass="" ContactLink="" IconColor="white"/>
-					<HeaderButton label="CONTACTANOS" IconClass="" ContactLink="" IconColor="white"/>
+					<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/"/>
+					<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros"/>
+					<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath=""/>
+					<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath=""/>
+					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath=""/>
 					<img className="3Dots img-fluid nav-item dropdown" src={require('../Figma Components/Group 1.png')} alt="3 dots"/>
 					</nav>
 					
@@ -52,11 +52,11 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 						<button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
 					</div>
 					<div className="offcanvas-body">
-						<HeaderButton label="INICIO" IconClass="" ContactLink="" IconColor="white"data-bs-toggle="offcanvas"/>
-						<HeaderButton label="NOSOTROS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
-						<HeaderButton label="PRODUCTOS+" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
-						<HeaderButton label="FAQS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
-						<HeaderButton label="CONTACTANOS" IconClass="" ContactLink="" IconColor="white" data-bs-toggle="offcanvas"/>
+						<HeaderButton label="INICIO" IconClass=""  IconColor="white"data-bs-toggle="offcanvas" routePath="/"/>
+						<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
+						<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
+						<HeaderButton label="FAQS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
+						<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
 
 					</div>
 
