@@ -1,0 +1,7 @@
+.TopBody{
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-image: url('../Figma Components/About us/Rectangle\ 14\ \(1\).png');
+	
+	background-position: start;
+	background-repeat: no-repeat;
+}

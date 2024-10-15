@@ -9,16 +9,7 @@ function NosotrosPage() {
       </div>
       <div className='BodyApp'>
        
-
-
-
-
-
-
-
-
-
-       
+        <NosotrosPage/>
       </div>
       
     </div>
