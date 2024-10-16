@@ -1,5 +1,8 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
+ // Asegúrate de importar Bootstrap
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 import './HeaderBar.css';
 import HeaderButton from "../Buttons/HeaderButton";
 
@@ -8,6 +11,11 @@ import HeaderButton from "../Buttons/HeaderButton";
 interface HeaderBarprops {}
 
 const HeaderBar: React.FC<HeaderBarprops> = () => {
+	const [show, setShow] = useState(false);
+
+ 	 const handleClose = () => setShow(false);
+ 	 const handleShow = () => setShow(true);
+
 	return (
 		<div className="Header container-fluid p-0">
 			<div className="ContactInfo bg-dark d-flex align-items-center">
@@ -46,25 +54,30 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					</nav>
 					
 				</div>
-				<div className="offcanvas offcanvas-start offcanvas-lg" id="demo">
-					<div className="offcanvas-header">
-						<h1 className="offcanvas-title">Menú</h1>
-						<button type="button" className="btn-close" data-bs-dismiss="offcanvas"></button>
-					</div>
-					<div className="offcanvas-body">
-						<HeaderButton label="INICIO" IconClass=""  IconColor="white"data-bs-toggle="offcanvas" routePath="/"/>
-						<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
-						<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
-						<HeaderButton label="FAQS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
-						<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" data-bs-toggle="offcanvas"routePath=""/>
+			
+			</div>
+				<Button variant="primary" onClick={handleShow} className="d-lg-none">
+					Launch
+				</Button>
 
-					</div>
-
-				</div>
-				<button className="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Menú</button>
+				
+				<Offcanvas show={show} onHide={handleClose} responsive="lg">
+						<Offcanvas.Header closeButton>
+						
+						<Offcanvas.Title>Menú</Offcanvas.Title>
+						</Offcanvas.Header>
+						<Offcanvas.Body>
+							<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/"/>
+							<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath=""/>
+							<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath=""/>
+							<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath=""/>
+							<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white"  routePath=""/>
+						</Offcanvas.Body>
+					</Offcanvas>
 
 			</div>
-		</div>
+			
+		
 	);
 };
 

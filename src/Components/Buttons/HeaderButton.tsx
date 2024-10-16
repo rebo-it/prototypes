@@ -1,11 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Importa useNavigate para la navegación
-import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
+import { useNavigate } from "react-router-dom";
+import { Button } from 'react-bootstrap'; // Importa el componente Button de react-bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './HeaderButton.css';
 
 interface HeaderButtonprops {
   label: string;
-  routePath: string;  // Cambié ContactLink a routePath para ser más claro
+  routePath: string; 
   IconClass: string;
   IconColor: string;
 }
@@ -18,10 +19,10 @@ const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass
   };
 
   return (
-    <button onClick={handleClick} className="ContactButton p-2 d-inline-flex align-items-center">
+    <Button onClick={handleClick} className="ContactButton d-inline-flex align-items-center">
       <i className={`${IconClass} me-2`} style={{ color: IconColor }}></i>
       {label}
-    </button>
+    </Button>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HeaderBar from '../Header/HeaderBar';
+import AboutBody from '../Body/AboutBody';
 function NosotrosPage() {
   return (
     <div className="App">
@@ -8,8 +9,8 @@ function NosotrosPage() {
         <HeaderBar/>
       </div>
       <div className='BodyApp'>
-       
-        <NosotrosPage/>
+       <AboutBody/>
+      
       </div>
       
     </div>
