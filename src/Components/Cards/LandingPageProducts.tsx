@@ -1,21 +1,41 @@
-import react from "react";
+import React from "react";
+import { Card, Button } from 'react-bootstrap'; // Importamos Card y Button de React Bootstrap
 import './LandingPageProducts.css';
-interface LandingPageProductsprops{
+import casco from '../Figma Components/casco1.png'; 
+
+
+
+interface LandingPageProductsprops {
     label: string;
     ContactLink: string;
-
     label2: string;
-
+  
 }
-const LandingPageProducts: react.FC<LandingPageProductsprops>=({ label, ContactLink,  label2 }) =>{
+function getImageUrl(imageId:string) {
+  return (
+    '../Figma Components/' +
+    imageId +
+    '.png'
+  );
+}
+
+const LandingPageProducts: React.FC<LandingPageProductsprops> = ({ label, ContactLink, label2}) => {
     return (
-<div className="card sm" >
-  <img src={require("/WIP/prototypes/src/Components/Figma Components/casco1.png")} className="ImageEquipment card-img-top img-fluid" alt="..."/>
-  <div className="card-body">
-    <h5 className="ProductName card-title text-white" style={{fontSize:'calc(1.25rem+0.5vw)'}}>{label}</h5>
-    <a href={ContactLink} className="CardLink btn " >{label2} </a>
-  </div>
-</div>
+        <Card className="sm">
+            <Card.Img 
+                src={require('../Figma Components/casco1.png')} 
+                className="ImageEquipment img-fluid" 
+                alt="Product image" 
+            />
+            <Card.Body>
+                <Card.Title className="ProductName text-white" style={{ fontSize: 'calc(0.75rem + 0.5vw)' }}>
+                    {label}
+                </Card.Title>
+                <Button href={ContactLink} className="CardLink">
+                    {label2}
+                </Button>
+            </Card.Body>
+        </Card>
     );
 };
 

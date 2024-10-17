@@ -7,6 +7,16 @@
     min-width: fit-content;
     
 }
+.BodyB{
+    border-radius: none;
+    border: none;
+    height: 5.5vh;
+    font-weight: bold;
+    max-width: 200px;
+    margin: 0;
+    min-width: fit-content;
+    
+}
 .btn:hover{
     opacity: 0.6;
 }

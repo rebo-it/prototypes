@@ -178,6 +178,10 @@ div{
 	margin: 0;
 	padding: 0;
 }
+.Top15{
+	display: flex;
+	gap: 30px;
+}
 .LogoReboEnd{
 	
 	height: 15vh;

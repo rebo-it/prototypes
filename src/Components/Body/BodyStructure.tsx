@@ -5,6 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstr
 import LandingPageProducts from "../Cards/LandingPageProducts";
 
 import ContactButton from "../Buttons/ContactButton";
+import ProductCarousel from "../Cards/CarouselCards";
+import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
+import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
+import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
 
 const BodyStructure: React.FC = () => {
   return (
@@ -44,15 +48,20 @@ const BodyStructure: React.FC = () => {
           </p>
         </div>
         <div className="Top6 row  mt-4 justify-content-end">
-          <div className="card1 col-4 col-xs-auto justify-content-end">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          <div className="d-lg-none">
+           <ProductCarousel/>
           </div>
-          <div className="card2 col-4 col-xs-auto justify-content-center">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+ 
+          <div className="card1 col-4 col-xs-auto justify-content-end d-none d-lg-flex">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
           </div>
-          <div className="card3 col-4 col-xs-auto justify-content-start">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2=''/>
+          <div className="card2 col-4 col-xs-auto justify-content-center d-none d-lg-flex">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
           </div>
+          <div className="card3 col-4 col-xs-auto justify-content-start d-none d-lg-flex">
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
+          </div>
+         
         </div>
       </div>
       <div className="MidBody2 row justify-content-end">
@@ -110,7 +119,7 @@ const BodyStructure: React.FC = () => {
         </div>
         
       </div>
-      <div className="EndBody  row align-items-center p-0">
+      <div className="EndBody  row align-items-center p-0 w-100">
         <div className="Top13 col-4 justify-content-left">
           <div className="LogoRebo col h2 text-white text-center align-items-center">
             <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />
@@ -133,7 +142,7 @@ const BodyStructure: React.FC = () => {
             Herramientas
           </p>
         </div>
-        <div className="Top15 col-4  justify-content-top mt-4 d-none d-sm-block">
+        <div className="Top15 col-4  justify-content-top mt-4 d-none d-sm-block ">
           <p className="h1 h-md2 text-white" style={{font:'ubuntu'}}> CONTACTO</p>
           <div className="col-4 col-sm-auto">
           <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>

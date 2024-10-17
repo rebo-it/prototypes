@@ -45,33 +45,33 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
 					<nav className="nav navbar-expand-lg d-none d-lg-block justify-content-start nav-pills flex-column flex-sm-row">
-					<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/"/>
-					<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros"/>
-					<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath=""/>
-					<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath=""/>
-					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath=""/>
+					<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/" LabelColor="white"/>
+					<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="white"/>
+					<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
+					<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
+					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
 					<img className="3Dots img-fluid nav-item dropdown" src={require('../Figma Components/Group 1.png')} alt="3 dots"/>
 					</nav>
-					
+					<Button variant="primary" onClick={handleShow} className="d-lg-none " style={{ border: 'none', background: 'none'}}>
+					Menú
+				</Button>
 				</div>
 			
 			</div>
-				<Button variant="primary" onClick={handleShow} className="d-lg-none">
-					Launch
-				</Button>
+				
 
 				
 				<Offcanvas show={show} onHide={handleClose} responsive="lg">
 						<Offcanvas.Header closeButton>
 						
 						<Offcanvas.Title>Menú</Offcanvas.Title>
-						</Offcanvas.Header>
-						<Offcanvas.Body>
-							<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/"/>
-							<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath=""/>
-							<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath=""/>
-							<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath=""/>
-							<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white"  routePath=""/>
+						</Offcanvas.Header  >
+						<Offcanvas.Body className="d-lg-none">
+							<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/" LabelColor="black"/>
+							<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="black"/>
+							<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="" LabelColor="black"/>
+							<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="black"/>
+							<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white"  routePath="" LabelColor="black"/>
 						</Offcanvas.Body>
 					</Offcanvas>
 

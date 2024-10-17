@@ -9,9 +9,10 @@ interface HeaderButtonprops {
   routePath: string; 
   IconClass: string;
   IconColor: string;
+  LabelColor: string;
 }
 
-const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass, IconColor }) => {
+const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass, IconColor, LabelColor }) => {
   const navigate = useNavigate();  // Hook de React Router para navegar
 
   const handleClick = () => {
@@ -19,7 +20,7 @@ const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass
   };
 
   return (
-    <Button onClick={handleClick} className="ContactButton d-inline-flex align-items-center">
+    <Button onClick={handleClick} className="ContactButton d-inline-flex align-items-center" style={{color:LabelColor}}>
       <i className={`${IconClass} me-2`} style={{ color: IconColor }}></i>
       {label}
     </Button>

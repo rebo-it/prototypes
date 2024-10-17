@@ -15,9 +15,9 @@
 .GeneralLink{
     text-decoration: none;
 }
-.Paragraph{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+.ParagraphB{
+    font-family: ubuntu;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
