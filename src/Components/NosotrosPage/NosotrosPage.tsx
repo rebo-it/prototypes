@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderBar from '../Header/HeaderBar';
+import HeaderBar from '../Header and Footer/HeaderBar';
 import AboutBody from '../Body/AboutBody';
 function NosotrosPage() {
   return (

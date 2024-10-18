@@ -9,6 +9,8 @@ import ProductCarousel from "../Cards/CarouselCards";
 import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
 import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
 import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
+import QualityCards from "../Cards/QualityCard";
+import MedalHolder from "../Cards/MedalHolder";
 
 const BodyStructure: React.FC = () => {
   return (
@@ -34,8 +36,11 @@ const BodyStructure: React.FC = () => {
 
         </div>
       </div>
-        <img className="Garantia img-fluid" src={require('../Figma Components/Rectangle 21.png')} alt="Logo" />
-      <div className="line-1"></div>
+      <div className="MedalHolderContainer">
+        <MedalHolder/>
+      </div>
+     
+
       <div className="MidBody">
         <div className="Top4 row justify-content-left">
           <div className="Etiqueta-Productos col h2 text-white text-center">
@@ -80,7 +85,7 @@ const BodyStructure: React.FC = () => {
               Equipo y calzado de seguridad industrial
             </p>
           </div>
-          <div className="Top9 z-1  row justify-content-center mt-4">
+          <div className="Top9 z-1 d-flex  row justify-content-center mt-4">
             <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
@@ -103,7 +108,7 @@ const BodyStructure: React.FC = () => {
              
             </p>
           </div>
-          <div className="Top12 row justify-content-center mt-4">
+          <div className="Top12 row justify-content-center mt-4 p-0">
             <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>

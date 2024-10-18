@@ -1,25 +1,32 @@
-import react from "react";
+import React from 'react';
+import { Card,  } from 'react-bootstrap'; // Importamos Card, Button e Image de React Bootstrap
 
-interface QualityCardsprops{
-    label: string;
-    ContactLink: string;
-
-    label2: string;
-
-}
-const QualityCards: react.FC<QualityCardsprops>=({ label, ContactLink,  label2 }) =>{
-    return (
-<div className="card sm" >
-   <span className="rounded-circle">
-   <img src={require("/WIP/prototypes/src/Components/Figma Components")} className="ImageEquipment card-img-top img-fluid" alt="..."/>
-    </span> 
+interface QualityCardsProps {
+  label: string;
   
-  <div className="card-body">
-    <h5 className="ProductName card-title text-white" style={{fontSize:'calc(1.25rem+0.5vw)'}}>{label}</h5>
-    <a href={ContactLink} className="CardLink btn " >{label2} </a>
-  </div>
-</div>
-    );
+  
+}
+
+const QualityCards: React.FC<QualityCardsProps> = ({ label  }) => {
+  return (
+    <Card className="sm" style={{background:'none', border:'none', width:'150px'}}>
+      <span className="rounded-circle">
+        {/* Asegúrate de que la ruta sea correcta */}
+        <Card.Img variant="top"
+          src={require('/WIP/prototypes/src/Components/Figma Components/Medals/Group 17.png')} 
+          className="ImageEquipment img-fluid" 
+          alt="Product image" 
+         
+        />
+      </span>
+      
+      <Card.Body>
+        <Card.Title className="ProductName " style={{ fontSize: 'calc(1.25rem + 0.5vw)', font:'ubuntu',color:'rgba(153, 0, 0, 1)' }}>
+          {label}
+        </Card.Title>
+      </Card.Body>
+    </Card>
+  );
 };
 
 export default QualityCards;

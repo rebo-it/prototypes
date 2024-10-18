@@ -121,11 +121,26 @@ div{
 	left: 50%; /* Centra la imagen horizontalmente */
 	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
 	 /* Ancho de la imagen */
-	z-index: 10; /* Asegura que la imagen esté por encima de ambos divs */
+	z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
 }
 .line-1{
 	height: 5px;
 	background-color:white ;
+}
+.MedalHolderContainer{
+	position: absolute;
+	top: 24%; /* Coloca la imagen justo al final del primer div */
+	left: 50%; /* Centra la imagen horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+	 /* Ancho de la imagen */
+	z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
+
+    background-image: url('../Figma Components/Rectangle\ 21.png');
+	background-position: start;
+	background-repeat: no-repeat;
+    max-width: 1200px;
+	display: flex;
+	align-items: center;
 }
 
 .Top4{
@@ -186,4 +201,5 @@ div{
 	
 	height: 15vh;
 	width: 15vw;
+	min-width: 100px;
 }
