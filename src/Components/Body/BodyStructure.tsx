@@ -11,6 +11,7 @@ import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
 import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
 import QualityCards from "../Cards/QualityCard";
 import MedalHolder from "../Cards/MedalHolder";
+import Footer from "../Header and Footer/Footer";
 
 const BodyStructure: React.FC = () => {
   return (
@@ -27,7 +28,7 @@ const BodyStructure: React.FC = () => {
           </p>
         </div>
         <div className="Top3 row justify-content-start mt-4">
-          <div className="col-12 col-sm-auto">
+          <div className="col-12 col-sm-auto justify-content-start justify-content-md-center">
             <BodyTop1Button label="VER PRODUCTOS" ContactLink="mailto:contacto@rebo.mx" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white" />
           </div>
           <div className="col-12 col-sm-auto">
@@ -70,10 +71,10 @@ const BodyStructure: React.FC = () => {
         </div>
       </div>
       <div className="MidBody2 row justify-content-end">
-        <div className=" MidBody2Left col-4  justify-content-start">
+        <div className=" MidBody2Left col-0 col-lg-4 justify-content-start">
           
         </div>
-        <div className="MidBody2Right col-8 align-items-center position-relative">
+        <div className="MidBody2Right col-12 col-lg-8 align-items-center position-relative">
           
           <div className="Top7  justify-content-end">
             <div className="Etiqueta-Productos col h2 text-white text-center">
@@ -85,7 +86,7 @@ const BodyStructure: React.FC = () => {
               Equipo y calzado de seguridad industrial
             </p>
           </div>
-          <div className="Top9 z-1 d-flex  row justify-content-center mt-4">
+          <div className="Top9 z-1 d-flex  row  justify-content-center mt-4">
             <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
@@ -97,15 +98,15 @@ const BodyStructure: React.FC = () => {
         
       </div>
       <div className="MidBody3 row justify-content-center p-0">
-        <div className="LeftSectionMid3 col-6 ">
+        <div className="LeftSectionMid3 col-12 col-lg-6 pt-4">
           <div className="Top10 row justify-content-left">
             <div className="Etiqueta-Productos col h2 text-white text-center">
-              
+              Acerca de Nosotros
             </div>
           </div>
           <div className="Top11 row justify-content-center text-wrap py-3  text-black" > 
           <p className="h3 text-white text-center" > 
-             
+             Texto de ejemplo
             </p>
           </div>
           <div className="Top12 row justify-content-center mt-4 p-0">
@@ -117,49 +118,14 @@ const BodyStructure: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="RightSectionMid3 position-relative col-6 d-flex justify-content-center align-items-center">
-         <img className="ReboHero3 img-fluid z-1 position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
-         <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0 d-none d-md-block" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
-         <img className="Garantia img-fluid z-0 position-absolute top-50 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
+        <div className="RightSectionMid3 position-relative col-12 col-lg-6 d-flex justify-content-center align-items-center">
+         <img className="ReboHero3 img-fluid  z-1  position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
+         <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0 d-none d-lg-block" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
+         <img className="OrangeRectangle img-fluid z-0  position-absolute top-20 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
         </div>
         
       </div>
-      <div className="EndBody  row align-items-center p-0 w-100">
-        <div className="Top13 col-4 justify-content-left">
-          <div className="LogoRebo col h2 text-white text-center align-items-center">
-            <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />
-          </div>
-        </div>
-        <div className="Top14 col-4 justify-content-center text-wrap py-3  text-black" > 
-		     <p className="h1 text-white text-start" > 
-            PRODUCTOS
-          </p>
-          <p className="h3 text-white text-start" > 
-            Uniformes industriales
-          </p>
-          <p className="h3 text-white text-start" > 
-            Equipo de protección personal
-          </p>
-          <p className="h3 text-white text-start" > 
-            Calzado industrial
-          </p>
-          <p className="h3 h-md2 text-white text-start" > 
-            Herramientas
-          </p>
-        </div>
-        <div className="Top15 col-4  justify-content-top mt-4 d-none d-sm-block ">
-          <p className="h1 h-md2 text-white" style={{font:'ubuntu'}}> CONTACTO</p>
-          <div className="col-4 col-sm-auto">
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp"/>
-          </div>
-          <div className="col-4 col-sm-auto">
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-envelope"/>
-          </div>
-          <div className="col-4 col-sm-auto">
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-geo-alt"/>
-          </div>
-        </div>
-      </div>
+      <Footer/>
     </div>
     
   );

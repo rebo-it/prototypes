@@ -106,23 +106,71 @@ div{
 	background-position: end;
 	background-repeat: no-repeat;
 }
+.MidBody2{
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 522px;
+}
 .Top12{
 	gap: 30px;
 }
 .ButtonMid{
 	width: fit-content;
 }
+@media (max-width: 992px) { /* Pantallas debajo de lg (menos de 992px) */
 
+
+
+	.OrangeRectangle{
+	top: 25%; /* Centra verticalmente */
+	left: 50%; /* Centra horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	width: 50%; /* Reduce el tamaño en pantallas pequeñas */
+	}
+	.ReboHero3 {
+	  top: 20%; /* Centra verticalmente */
+	  left: 50%; /* Centra horizontalmente */
+	  transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	  width: 50%; /* Reduce el tamaño en pantallas pequeñas */
+	}
+
+	.MidBody2Left{
+		
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 2.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 482px;
+		
+	}
+	.MidBody2Right{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: rgba(153, 0, 0, 1);
+	}
+	.MidBody2{
+		background: none;
+	}
+	.MidBody3{
+		display: flex;
+		gap: none;
+	}
+	.LeftSectionMid3{
+		padding-top: 30px;
+		height: fit-content;
+	}
+	.RightSectionMid3{
+		padding-bottom: 100px;
+	}
+
+  }
 
   
-.Garantia{
-	position: absolute;
-	top: 24%; /* Coloca la imagen justo al final del primer div */
-	left: 50%; /* Centra la imagen horizontalmente */
-	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
-	 /* Ancho de la imagen */
-	z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
-}
+
 .line-1{
 	height: 5px;
 	background-color:white ;
@@ -168,19 +216,14 @@ div{
 	display: flex;
 	align-items: center;
 }
-.MidBody2{
-	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
-	background-size: cover; 
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 522px;
-}
+
 .Top9{
 	gap: 20px;
 }
 .MidBody3{
 	background-color: rgba(33, 33, 26, 1);
 	height: 768px;
+	
 }
 .Top{
 	margin: 0%;
