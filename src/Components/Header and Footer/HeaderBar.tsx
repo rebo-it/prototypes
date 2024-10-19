@@ -17,7 +17,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
  	 const handleShow = () => setShow(true);
 
 	return (
-		<div className="Header container-fluid p-0">
+		<div className="Header container-fluid p-0 w-100">
 			<div className="ContactInfo bg-dark d-flex align-items-center">
 			<nav className="navbar  navbar-expand">
 
@@ -25,13 +25,13 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 						
 						<ul className="navbar-nav ">
 							<li className="nav-item">
-							<a className="nav-link" href=""><i className="bi bi-whatsapp"></i> Link 1</a>
+							<a className="nav-link" href="https://www.wa.me/5215561585215"><i className="bi bi-whatsapp"></i> Link 1</a>
 							</li>
 							<li className="nav-item justify-content-end">
-							<a className="nav-link" href=""><i className="bi bi-geo-alt"></i> Link 2</a>
+							<a className="nav-link" href="https://www.google.com.mx/maps/search/metro+rosario/@19.5057528,-99.2015381,18z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"><i className="bi bi-geo-alt"></i> Nuestra Ubicación</a>
 							</li>
 							<li className="nav-item">
-							<a className="nav-link" href=""><i className="bi bi-envelope"></i> Link 3</a>
+							<a className="nav-link" href="mailto:contacto@rebo.mx"><i className="bi bi-envelope"></i> Link 3</a>
 							</li>
 							
 						</ul>

@@ -21,7 +21,7 @@ const QualityCards: React.FC<QualityCardsProps> = ({ label  }) => {
       </span>
       
       <Card.Body>
-        <Card.Title className="ProductName " style={{ fontSize: 'calc(0.5rem + 0.75vw)', font:'ubuntu',color:'rgba(153, 0, 0, 1)' }}>
+        <Card.Title className="MedaltName " style={{ fontSize: 'calc(0.5rem + 0.75vw)', font:'ubuntu',color:'rgba(153, 0, 0, 1)' }}>
           {label}
         </Card.Title>
       </Card.Body>

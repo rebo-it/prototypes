@@ -12,7 +12,7 @@ import Footer from "../Header and Footer/Footer";
 
 const BodyStructure: React.FC = () => {
   return (
-    <div className="FullBody container-fluid bg-image p-0">
+    <div className="FullBody container-fluid bg-image p-0 w-100">
       <div className="TopBody">
         <div className="Top1 row justify-content-left">
           <div className="col text-start">
