@@ -1,10 +1,12 @@
 .btn{
     border-radius: none;
     height: 5.5vh;
+    min-height: 35px;
     font-weight: bold;
     width: 200px;
     margin: 0;
     min-width: fit-content;
+    padding: 0% !important;
     
 }
 .BodyB{

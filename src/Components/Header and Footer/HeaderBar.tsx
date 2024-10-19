@@ -67,7 +67,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 						<Offcanvas.Title>Menú</Offcanvas.Title>
 						</Offcanvas.Header  >
 						<Offcanvas.Body className="d-lg-none">
-							<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/" LabelColor="black"/>
+							<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/prototypes" LabelColor="black"/>
 							<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="black"/>
 							<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="" LabelColor="black"/>
 							<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="black"/>

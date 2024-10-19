@@ -34,6 +34,10 @@ function Footer() {
           <ContactButton label="Ubicación" ContactLink="https://www.google.com/maps/search/metro+rosario/@19.504844,-99.2108785,15z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" IconClass="bi bi-geo-alt" />
         </Col>
       </Col>
+      <Col xs={12}>
+       <div style={{height:'2px', backgroundColor:'orange'}}></div>
+       <p className='h5 text-white' style={{fontWeight:'normal', fontSize:'15px'}}>2024 Todos los derechos reservados</p>
+      </Col>
     </Row>
   </Container>
   );

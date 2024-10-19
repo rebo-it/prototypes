@@ -22,7 +22,7 @@ const AboutBody: React.FC = () => {
           
           <Row className="Top12 justify-content-center mt-4 p-0">
             <Col xs={6} sm="auto" className="ButtonMid">
-              <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
+              <BodyTop1Button label="MÁS INFORMACIÓN" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white" />
             </Col>
             <Col xs={6} sm="auto" className="ButtonMid">
               <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
@@ -33,7 +33,7 @@ const AboutBody: React.FC = () => {
         <Col xs={12} lg={6} className="RightSectionMid3 position-relative d-flex justify-content-center align-items-center"> {/* Usa Col para la imagen */}
           <img className="ReboHero3 img-fluid z-1 position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
           <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0 d-none d-lg-block" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
-          <img className="OrangeRectangle img-fluid z-0 position-absolute top-20 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
+          <img className="OrangeRectangle img-fluid z-0 position-absolute top-20 end-30" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
         </Col>
         
       </Row> 
