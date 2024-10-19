@@ -6,7 +6,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <Container fluid className="EndBody p-0">
+    <Container fluid className="EndBody p-0 w-100">
     <Row className="align-items-center w-100">
       <Col md={4} className="Top13 justify-content-left">
         <Col className="LogoRebo h2 text-white text-center align-items-center">
