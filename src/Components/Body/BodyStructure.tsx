@@ -40,7 +40,7 @@ const BodyStructure: React.FC = () => {
       <div className="MedalHolderContainer">
         <MedalHolder/>
       </div>
-     
+      <div style={{height:'5px',backgroundColor:'white', width:'100%'}}></div>
 
       <div className="MidBody p-0 w-100">
         <div className="Top4 row justify-content-left">

@@ -9,16 +9,16 @@ function MedalHolder() {
   return (
     <Container className='MedalHolder'>
     <Row className='d-flex justify-content-center'>
-        <Col xs={6} md={3}>
+        <Col xs={6} lg={3} className='d-flex justify-content-center'>
             <QualityCards label='Garantía total de satisfacción'/>
         </Col>
-        <Col xs={6} md={3}>
+        <Col xs={6} lg={3} className='d-flex justify-content-center'>
             <QualityCards label='Garantía total de satisfacción'/>
         </Col>
-        <Col xs={6} md={3}>
+        <Col xs={6} lg={3} className='d-flex justify-content-center'>
             <QualityCards label='Garantía total de satisfacción'/>
         </Col>
-        <Col xs={6} md={3}>
+        <Col xs={6} lg={3} className='d-flex justify-content-center'>
             <QualityCards label='Garantía total de satisfacción'/>
         </Col>
     </Row>
