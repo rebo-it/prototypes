@@ -105,12 +105,16 @@ div{
 }
 
 .MidBody2Right{
+	padding-top: 30px;
 	position: relative;
 	background-image: url('../Figma Components/Rectangle\ 22.png');
 	/* Asegura que el pseudo-elemento se posicione correctamente */
 	
 	background-position: end;
 	background-repeat: no-repeat;
+}
+.EtiquetaProductos{
+	padding-top: 20px;
 }
 .MidBody2{
 	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');

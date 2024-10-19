@@ -18,12 +18,12 @@ const BodyStructure: React.FC = () => {
     <div className="FullBody container-fluid bg-image p-0">
       <div className="TopBody">
         <div className="Top1 row justify-content-left ">
-          <div className="col justify-content-start justify-content-md-center">
+          <div className="col justify-content-center justify-content-md-start">
             <img className="LogoReboTop img-fluid" src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
           </div>
         </div>
         <div className="Top2 row justify-content-start justify-content-md-center text-wrap py-3  text-black" > 
-		     <p className="h1 h-md2 text-start text-md-center text-white"> 
+		     <p className="h1 h-md2 text-center text-md-start text-white"> 
             Equipo y calzado de seguridad industrial
           </p>
         </div>
