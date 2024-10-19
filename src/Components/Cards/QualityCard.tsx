@@ -9,7 +9,7 @@ interface QualityCardsProps {
 
 const QualityCards: React.FC<QualityCardsProps> = ({ label  }) => {
   return (
-    <Card className="sm" style={{background:'none', border:'none', width:'150px'}}>
+    <Card className="QualityCard" style={{background:'none', border:'none', width:'150px'}}>
       <span className="rounded-circle">
         {/* Asegúrate de que la ruta sea correcta */}
         <Card.Img variant="top"
