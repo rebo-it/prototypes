@@ -25,13 +25,13 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 						
 						<ul className="navbar-nav ">
 							<li className="nav-item">
-							<a className="nav-link" href=""><i className="bi bi-whatsapp"></i> Link 1</a>
+							<a className="nav-link" href="/"><i className="bi bi-whatsapp"></i> Link 1</a>
 							</li>
 							<li className="nav-item justify-content-end">
-							<a className="nav-link" href=""><i className="bi bi-geo-alt"></i> Link 2</a>
+							<a className="nav-link" href="/"><i className="bi bi-geo-alt"></i> Link 2</a>
 							</li>
 							<li className="nav-item">
-							<a className="nav-link" href=""><i className="bi bi-envelope"></i> Link 3</a>
+							<a className="nav-link" href="/"><i className="bi bi-envelope"></i> Link 3</a>
 							</li>
 							
 						</ul>

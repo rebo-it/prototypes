@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from 'react-bootstrap'; // Importamos Card y Button de React Bootstrap
 import './LandingPageProducts.css';
-import casco from '../Figma Components/casco1.png'; 
+// import casco from '../Figma Components/casco1.png'; 
 
 
 
@@ -11,13 +11,14 @@ interface LandingPageProductsprops {
     label2: string;
   
 }
-function getImageUrl(imageId:string) {
-  return (
-    '../Figma Components/' +
-    imageId +
-    '.png'
-  );
-}
+
+// function getImageUrl(imageId:string) {
+//   return (
+//     '../Figma Components/' +
+//     imageId +
+//     '.png'
+//   );
+// }
 
 const LandingPageProducts: React.FC<LandingPageProductsprops> = ({ label, ContactLink, label2}) => {
     return (

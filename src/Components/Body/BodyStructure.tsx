@@ -4,7 +4,7 @@ import BodyTop1Button from "../Buttons/BodyTop1Button";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
 import LandingPageProducts from "../Cards/LandingPageProducts";
 
-import ContactButton from "../Buttons/ContactButton";
+// import ContactButton from "../Buttons/ContactButton";
 import ProductCarousel from "../Cards/CarouselCards";
 // import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
 // import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
