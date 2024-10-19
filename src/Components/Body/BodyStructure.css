@@ -103,7 +103,7 @@ div{
 	position: relative;
 	background-image: url('../Figma Components/Rectangle\ 22.png');
 	/* Asegura que el pseudo-elemento se posicione correctamente */
-
+	
 	background-position: end;
 	background-repeat: no-repeat;
 }

@@ -68,10 +68,10 @@ const BodyStructure: React.FC = () => {
         </div>
       </div>
       <div className="MidBody2 row justify-content-end p-0 w-100">
-        <div className=" MidBody2Left col-0 col-lg-4 justify-content-start p-0 w-100">
+        <div className=" MidBody2Left col-0 col-lg-4 justify-content-start ">
           
         </div>
-        <div className="MidBody2Right col-12 col-lg-8 align-items-center position-relative p-0 w-100">
+        <div className="MidBody2Right col-12 col-lg-8 align-items-center position-relative p-0 g ">
           
           <div className="Top7  justify-content-end p-0 w-100">
             <div className="Etiqueta-Productos col h2 text-white text-center">
@@ -95,18 +95,18 @@ const BodyStructure: React.FC = () => {
         
       </div>
       <div className="MidBody3 row justify-content-center p-0 w-100">
-        <div className="LeftSectionMid3 col-12 col-lg-6 pt-4 p-0 w-100">
-          <div className="Top10 row justify-content-left p-0 w-100">
+        <div className="LeftSectionMid3 col-12 col-lg-6 pt-4 ">
+          <div className="Top10 row justify-content-left ">
             <div className="Etiqueta-Productos col h2 text-white text-center">
               Acerca de Nosotros
             </div>
           </div>
-          <div className="Top11 row justify-content-center text-wrap py-3  text-black p-0 w-100" > 
+          <div className="Top11 row justify-content-center text-wrap py-3  text-black" > 
           <p className="h3 text-white text-center" > 
              Texto de ejemplo
             </p>
           </div>
-          <div className="Top12 row justify-content-center mt-4  p-0 w-100">
+          <div className="Top12 row justify-content-center mt-4 p-0">
             <div className="ButtonMid col-6 col-sm-auto">
             <BodyTop1Button label="COTIZA AHORA" ContactLink="mailto:edgar.mtz@rebo.mx" ButtonColor="white" TextColor="rgba(255, 113, 0, 1)" />
             </div>
@@ -115,7 +115,7 @@ const BodyStructure: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="RightSectionMid3 position-relative col-12 col-lg-6 d-flex justify-content-center align-items-center p-0 w-100">
+        <div className="RightSectionMid3 position-relative col-12 col-lg-6 d-flex justify-content-center align-items-center ">
          <img className="ReboHero3 img-fluid  z-1  position-absolute top-15 end-0" src={require('../Figma Components/grupo-rebo-hero-3 1.png')} alt="Logo" />
          <img className="ReboHero4 img-fluid z-2 position-absolute top-50 start-0 d-none d-lg-block" src={require('../Figma Components/grupo-rebo-hero-4 1.png')} alt="Logo" />
          <img className="OrangeRectangle img-fluid z-0  position-absolute top-20 end-0" src={require('../Figma Components/Rectangle 26.png')} alt="Logo" />
