@@ -6,6 +6,9 @@
 	padding: 0;
 	margin-right: 0 !important
 }
+.EndContainer{
+	margin: 0% !important;
+}
 .Top15{
 	display: flex;
 	gap: 30px;

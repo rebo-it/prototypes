@@ -7,7 +7,7 @@ import './Footer.css';
 function Footer() {
   return (
     <Container fluid className="EndBody p-0 w-100 ">
-    <Row className="align-items-center ">
+    <Row className="EndContainer align-items-center p-0">
       <Col md={4} className="Top13 justify-content-left">
         <Col className="LogoRebo h2 text-white text-center align-items-center">
           <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />

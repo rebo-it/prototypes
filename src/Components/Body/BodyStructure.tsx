@@ -53,18 +53,18 @@ const BodyStructure: React.FC = () => {
             Equipo y calzado de seguridad industrial
           </p>
         </div>
-        <div className="Top6 row  mt-4 justify-content-end">
+        <div className="Top6 row  mt-4 justify-content-end p-0">
           <div className="d-lg-none">
            <ProductCarousel/>
           </div>
  
-          <div className="card1 col-4 col-xs-auto justify-content-end d-none d-lg-flex">
+          <div className="card1 col-4 col-xs-auto justify-content-end d-none d-lg-flex p-0">
             <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
-          <div className="card2 col-4 col-xs-auto justify-content-center d-none d-lg-flex">
+          <div className="card2 col-4 col-xs-auto justify-content-center d-none d-lg-flex p-0">
             <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
-          <div className="card3 col-4 col-xs-auto justify-content-start d-none d-lg-flex">
+          <div className="card3 col-4 col-xs-auto justify-content-start d-none d-lg-flex p-0" style={{margin:'0'}}>
             <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
          

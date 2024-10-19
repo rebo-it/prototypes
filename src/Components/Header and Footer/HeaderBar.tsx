@@ -45,7 +45,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<img className="Logo img-fluid" src={require('../Figma Components/ReboLogoWhite.png')} alt="LogoRebo"/>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
 					<nav className="nav navbar-expand-lg d-none d-lg-block justify-content-start nav-pills flex-column flex-sm-row">
-					<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/" LabelColor="white"/>
+					<HeaderButton label="INICIO" IconClass=""  IconColor="white" routePath="/prototypes" LabelColor="white"/>
 					<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="white"/>
 					<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
 					<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
