@@ -1,4 +1,5 @@
 .App {
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -40,4 +41,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  width: 100%;
 }

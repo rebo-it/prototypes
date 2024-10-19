@@ -1,4 +1,6 @@
-
+.row{
+	margin-right:0%;
+}
 h1 h2 h3 h4 h5 h6{
 	font-family: ubuntu;
 
@@ -16,8 +18,7 @@ div{
 	background-size: cover; 
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
-	width: 100vw;
+	
 	margin: 0;
 	padding: 0;
   }
@@ -113,6 +114,8 @@ div{
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 522px;
+	margin: 0%;
+	margin-right: 0 !important
 }
 .Top12{
 	gap: 30px;
@@ -122,8 +125,18 @@ div{
 }
 @media (max-width: 992px) { /* Pantallas debajo de lg (menos de 992px) */
 
-
-
+	.LogoReboTop {
+		padding-left: 0;
+		height: 10vh;
+		cursor: pointer;
+		
+	  }
+	.Top2{
+		padding-left: 0;
+	}
+	.Top3{
+		padding-left: 0;
+	}
 	.OrangeRectangle{
 	top: 25%; /* Centra verticalmente */
 	left: 50%; /* Centra horizontalmente */
@@ -135,8 +148,11 @@ div{
 	  left: 50%; /* Centra horizontalmente */
 	  transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
 	  width: 50%; /* Reduce el tamaño en pantallas pequeñas */
+	  min-width: 200px;
 	}
-
+	.OrangeRectangle{
+		min-width: 210px;
+	}
 	.MidBody2Left{
 		
 	background-image: url('../Figma Components/grupo-rebo-hero-2\ 2.png');
@@ -242,6 +258,7 @@ div{
 .MidBody3{
 	background-color: rgba(33, 33, 26, 1);
 	height: 768px;
+	margin-right: 0 !important
 	
 }
 .Top{
@@ -251,7 +268,7 @@ div{
 .EndBody{
 	height: 100%;
 	background-color: black;
-	width: 100%;
+	
 	margin: 0;
 	padding: 0;
 }

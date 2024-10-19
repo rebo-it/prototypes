@@ -6,8 +6,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <Container fluid className="EndBody p-0 w-100">
-    <Row className="align-items-center w-100">
+    <Container fluid className="EndBody p-0 w-100 ">
+    <Row className="align-items-center ">
       <Col md={4} className="Top13 justify-content-left">
         <Col className="LogoRebo h2 text-white text-center align-items-center">
           <img className="LogoReboEnd img-fluid" src={require('../Figma Components/Frame.png')} alt="Logo" />
@@ -25,13 +25,13 @@ function Footer() {
       <Col md={4} className="Top15 justify-content-center mt-4  d-block">
         <p className="h1 h-md2 text-white" style={{ fontFamily: 'Ubuntu' }}>CONTACTO</p>
         <Col className="col-sm-auto" >
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-whatsapp" />
+          <ContactButton label="56 6158 5215" ContactLink="https://api.whatsapp.com/send/?phone=5215561585215&text&type=phone_number&app_absent=0" IconClass="bi bi-whatsapp" />
         </Col>
         <Col className="col-sm-auto" >
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-envelope" />
+          <ContactButton label="contacto@rebo.mx" ContactLink="mailto:contacto@rebo.mx" IconClass="bi bi-envelope" />
         </Col>
         <Col className="col-sm-auto" >
-          <ContactButton label="55 55 2852 8221" ContactLink="" IconClass="bi bi-geo-alt" />
+          <ContactButton label="Ubicación" ContactLink="https://www.google.com/maps/search/metro+rosario/@19.504844,-99.2108785,15z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" IconClass="bi bi-geo-alt" />
         </Col>
       </Col>
     </Row>

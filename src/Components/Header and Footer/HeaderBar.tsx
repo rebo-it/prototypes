@@ -17,7 +17,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
  	 const handleShow = () => setShow(true);
 
 	return (
-		<div className="Header container-fluid p-0">
+		<div className="Header container-fluid p-0 w-100">
 			<div className="ContactInfo bg-dark d-flex align-items-center">
 			<nav className="navbar  navbar-expand">
 
