@@ -6,11 +6,10 @@
 	 /* Ancho de la imagen */
 	z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
 
-    background-image: url('../Figma Components/Rectangle\ 21.png;');
-	
-	background-position: start;
-	background-repeat: no-repeat;
-    max-width: 1200px;
+    background-color: white;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+    width: 1200px;
 }
 @media (max-width: 992px){
     
