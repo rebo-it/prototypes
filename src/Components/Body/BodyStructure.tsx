@@ -59,13 +59,13 @@ const BodyStructure: React.FC = () => {
           </div>
  
           <div className="card1 col-4 col-xs-auto justify-content-end d-none d-lg-flex">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
           <div className="card2 col-4 col-xs-auto justify-content-center d-none d-lg-flex">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
           <div className="card3 col-4 col-xs-auto justify-content-start d-none d-lg-flex">
-            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='' />
+            <LandingPageProducts ContactLink=""label="Equipo de Protección Industrial"  label2='VER PRODUCTOS' />
           </div>
          
         </div>

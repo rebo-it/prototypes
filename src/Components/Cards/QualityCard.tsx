@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card,  } from 'react-bootstrap'; // Importamos Card, Button e Image de React Bootstrap
-
+import './QualityCard.css'
 interface QualityCardsProps {
   label: string;
   
@@ -14,14 +14,14 @@ const QualityCards: React.FC<QualityCardsProps> = ({ label  }) => {
         {/* Asegúrate de que la ruta sea correcta */}
         <Card.Img variant="top"
           src={require('/WIP/prototypes/src/Components/Figma Components/Medals/Group 17.png')} 
-          className="ImageEquipment img-fluid" 
+          className="MedalImage img-fluid" 
           alt="Product image" 
          
         />
       </span>
       
       <Card.Body>
-        <Card.Title className="ProductName " style={{ fontSize: 'calc(1.25rem + 0.5vw)', font:'ubuntu',color:'rgba(153, 0, 0, 1)' }}>
+        <Card.Title className="ProductName " style={{ fontSize: 'calc(0.5rem + 0.75vw)', font:'ubuntu',color:'rgba(153, 0, 0, 1)' }}>
           {label}
         </Card.Title>
       </Card.Body>

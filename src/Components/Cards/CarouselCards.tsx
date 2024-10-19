@@ -15,18 +15,18 @@ function ProductCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
     <Carousel.Item>
-      <div className="d-flex justify-content-center align-items-center " style={{height:'250px'}} >
-        <LandingPageProducts label='Casco de Protección' label2='' ContactLink=''/>
+      <div className="d-flex justify-content-center align-items-center " style={{height:'300px'}} >
+        <LandingPageProducts label='Equipo de protección industrial' label2='' ContactLink=''/>
       </div>
     </Carousel.Item>
     <Carousel.Item>
-      <div className="d-flex justify-content-center align-items-center" style={{height:'250px'}}  >
-        <LandingPageProducts label='' label2='' ContactLink='' />
+      <div className="d-flex justify-content-center align-items-center" style={{height:'300px'}}  >
+        <LandingPageProducts label='Equipo de protección industrial' label2='' ContactLink='' />
       </div>
     </Carousel.Item>
     <Carousel.Item>
-      <div className="d-flex justify-content-center align-items-center" style={{height:'250px'}}  >
-        <LandingPageProducts label='' label2='' ContactLink='' />
+      <div className="d-flex justify-content-center align-items-center" style={{height:'300px'}}  >
+        <LandingPageProducts label='Equipo de protección industrial' label2='' ContactLink='' />
       </div>
     </Carousel.Item>
   </Carousel>

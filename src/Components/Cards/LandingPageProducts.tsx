@@ -27,11 +27,11 @@ const LandingPageProducts: React.FC<LandingPageProductsprops> = ({ label, Contac
                 className="ImageEquipment img-fluid" 
                 alt="Product image" 
             />
-            <Card.Body>
+            <Card.Body className="ProductCardBody" style={{maxHeight:'100px'}}>
                 <Card.Title className="ProductName text-white" style={{ fontSize: 'calc(0.75rem + 0.5vw)' }}>
                     {label}
                 </Card.Title>
-                <Button href={ContactLink} className="CardLink">
+                <Button href={ContactLink} className="CardLink mt-auto " style={{ fontSize:'calc(0.75rem + 0.5vw)', textDecoration:'none' }}>
                     {label2}
                 </Button>
             </Card.Body>

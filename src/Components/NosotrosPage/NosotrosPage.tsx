@@ -2,6 +2,7 @@ import React from 'react';
 
 import HeaderBar from '../Header and Footer/HeaderBar';
 import AboutBody from '../Body/AboutBody';
+import Footer from '../Header and Footer/Footer';
 function NosotrosPage() {
   return (
     <div className="App">
@@ -9,9 +10,14 @@ function NosotrosPage() {
         <HeaderBar/>
       </div>
       <div className='BodyApp'>
+      <div className="Top1Body p-0">
+            <p className="h1 text-white" style={{font:'ubuntu', paddingTop:'50px', fontWeight:'bold'}}> Acerca de nosotros</p>
+
+        </div>
        <AboutBody/>
       
       </div>
+      <Footer/>
       
     </div>
   );
