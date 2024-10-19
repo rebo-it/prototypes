@@ -10,7 +10,7 @@ function App() {
     <Router>
     <Routes>
       {/* Ruta para la página principal o de aterrizaje */}
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/prototypes" element={<LandingPage />} />
 
       {/* Otras rutas */}
       <Route path="/Nosotros" element={<NosotrosPage />} />
