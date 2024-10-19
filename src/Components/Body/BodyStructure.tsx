@@ -6,10 +6,10 @@ import LandingPageProducts from "../Cards/LandingPageProducts";
 
 import ContactButton from "../Buttons/ContactButton";
 import ProductCarousel from "../Cards/CarouselCards";
-import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
-import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
-import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
-import QualityCards from "../Cards/QualityCard";
+// import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
+// import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
+// import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
+// import QualityCards from "../Cards/QualityCard";
 import MedalHolder from "../Cards/MedalHolder";
 import Footer from "../Header and Footer/Footer";
 

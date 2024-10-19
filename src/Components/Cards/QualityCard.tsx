@@ -13,7 +13,7 @@ const QualityCards: React.FC<QualityCardsProps> = ({ label  }) => {
       <span className="rounded-circle">
         {/* Asegúrate de que la ruta sea correcta */}
         <Card.Img variant="top"
-          src={require('/WIP/prototypes/src/Components/Figma Components/Medals/Group 17.png')} 
+          src={require('../Figma Components/Medals/Group 17.png')} 
           className="MedalImage img-fluid" 
           alt="Product image" 
          

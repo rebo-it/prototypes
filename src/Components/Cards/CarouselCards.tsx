@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import LandingPageProducts from './LandingPageProducts';
-import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
-import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
-import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
+// import Casco from "/WIP/prototypes/src/Components/Figma Components/casco1.png";
+// import Botas from "/WIP/prototypes/src/Components/Figma Components/botas 3.png";
+// import Chaleco from "/WIP/prototypes/src/Components/Figma Components/chaleco 1.png";
 
 function ProductCarousel() {
   const [index, setIndex] = useState(0);
