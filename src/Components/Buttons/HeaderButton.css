@@ -1,16 +1,20 @@
-.ContactButton{
+.HeaderButton{
     background: none;
     border: none;
     width: fit-content;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none!important;
     color: white;
 
 }
-.ContactButton:hover {
+.HeaderButton:hover {
     background: none;
+    opacity: 0.7;
+}
+.HeaderButton:active{
+    background: none!important;
     opacity: 0.6;
 }
 .GeneralLink{

@@ -20,7 +20,7 @@ const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass
   };
 
   return (
-    <Button onClick={handleClick} className="ContactButton d-inline-flex align-items-center" style={{color:LabelColor}}>
+    <Button onClick={handleClick} className="HeaderButton d-inline-flex align-items-center" style={{color:LabelColor}}>
       <i className={`${IconClass} me-2`} style={{ color: IconColor }}></i>
       {label}
     </Button>
