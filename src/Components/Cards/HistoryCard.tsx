@@ -24,10 +24,11 @@ const HistoryCard: React.FC<HistoryCardprops> = ({ label, label2}) => {
             <Card.Body className="HistoryCardBody" style={{maxHeight:'100px'}}>
                 <Card.Title className="HistoryCardTitle text-white" style={{ height:'72px', marginBottom:'68px' }}>
                     {label}
+                    <p style={{fontSize:'15px'}}>{label2}</p>
                 </Card.Title>
-                <p>{label2}</p> 
+                 
             </Card.Body>
-            <div style={{width:'220px',backgroundColor:'rgba(255, 113, 0, 1)', height:'2px', marginTop:'75px'}}></div>
+            <div style={{width:'300px',backgroundColor:'rgba(255, 113, 0, 1)', height:'2px', marginTop:'125px'}}></div>
         </Card>
     );
 };

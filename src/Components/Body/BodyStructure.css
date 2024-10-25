@@ -57,6 +57,7 @@ div{
 	cursor: pointer;
 	
   }
+  
   .col text-start{
 	margin: 0;
 	padding: 0;
@@ -173,7 +174,7 @@ div{
 	.MidBody2Right{
 		padding-top: 20px;
 		padding-bottom: 20px;
-		padding-left: 20px;
+		
 		padding-right: 20px;
 		background-color: rgba(153, 0, 0, 1);
 	}

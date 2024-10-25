@@ -52,7 +52,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
 					<img className="3Dots img-fluid nav-item dropdown" src={require('../Figma Components/Group 1.png')} alt="3 dots"/>
 					</nav>
-					<Button variant="primary" onClick={handleShow} className="d-lg-none " style={{ border: 'none', background: 'none'}}>
+					<Button variant="primary" onClick={handleShow} className="Menu d-lg-none text-center " style={{ border: 'none', background: 'none'}}>
 					Menú
 				</Button>
 				</div>

@@ -18,8 +18,8 @@ const BodyStructure: React.FC = () => {
     <div className="FullBody container-fluid bg-image p-0">
       <div className="TopBody">
         <div className="Top1 row justify-content-left ">
-          <div className="col justify-content-center justify-content-md-start">
-            <img className="LogoReboTop img-fluid" src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
+          <div className="LogoReboContainer col justify-content-start text-start ">
+            hola
           </div>
         </div>
         <div className="Top2 row justify-content-start justify-content-md-center text-wrap py-3  text-black" > 

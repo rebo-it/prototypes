@@ -9,6 +9,7 @@ interface LandingPageProductsprops {
     label: string;
     ContactLink: string;
     label2: string;
+   
   
 }
 
