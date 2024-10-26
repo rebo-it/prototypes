@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import LandingPage from './Components/LandingPage/LandingPage';
 import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
+import ProductsPage from './Components/ProductsPage/ProductsPage';
 function App() {
   return (
     <Router>
@@ -14,7 +15,10 @@ function App() {
 
       {/* Otras rutas */}
       <Route path="/Nosotros" element={<NosotrosPage />} />
+
+      <Route path="/Productos" element={<ProductsPage/>} />
      
+
     </Routes>
   </Router>
   );
