@@ -1,6 +1,6 @@
 import React from "react";
-import './ProductsSection.css';
-import { Container, Row, Col,Tab,Nav } from 'react-bootstrap'; // Importa los componentes necesarios de react-bootstrap
+
+import { Container, Row, Col } from 'react-bootstrap'; // Importa los componentes necesarios de react-bootstrap
 import Formular from "./Formular";
 
 
@@ -18,7 +18,7 @@ const ContactFormular: React.FC = () => {
             <Col xs={12} lg={6} >
 
             </Col>
-            <Col xs={ 12} lg={6} >
+            <Col xs={ 12} lg={6} style={{backgroundColor:'rgba(33, 33, 26, 1)'}} >
                 <Formular/>
             
             </Col>

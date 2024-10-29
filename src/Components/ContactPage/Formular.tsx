@@ -24,7 +24,7 @@ function Formular() {
       validationSchema={schema}
       onSubmit={(values) => console.log(values)}
       initialValues={{
-        nombreCompleto: '',
+        nombreCompleto: 'Nombres y Apellidos',
         telefono: '',
         correo: '',
         empresa: '',
@@ -37,7 +37,7 @@ function Formular() {
         <Form noValidate onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} xs="12" controlId="validationFormikNombreCompleto">
-              <Form.Label>Nombre Completo</Form.Label>
+              <Form.Label style={{color:'white'}} >Nombre Completo</Form.Label>
               <Form.Control
                 type="text"
                 name="nombreCompleto"
@@ -53,7 +53,7 @@ function Formular() {
           
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationFormikTelefono">
-              <Form.Label>Teléfono</Form.Label>
+              <Form.Label style={{color:'white'}}>Teléfono</Form.Label>
               <Form.Control
                 type="text"
                 name="telefono"
@@ -67,7 +67,7 @@ function Formular() {
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="validationFormikCorreo">
-              <Form.Label>Correo Electrónico</Form.Label>
+              <Form.Label style={{color:'white'}}>Correo Electrónico</Form.Label>
               <Form.Control
                 type="email"
                 name="correo"
@@ -83,7 +83,7 @@ function Formular() {
           
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationFormikEmpresa">
-              <Form.Label>Empresa</Form.Label>
+              <Form.Label style={{color:'white'}}>Empresa</Form.Label>
               <Form.Control
                 type="text"
                 name="empresa"
@@ -97,7 +97,7 @@ function Formular() {
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="validationFormikAsunto">
-              <Form.Label>Asunto</Form.Label>
+              <Form.Label style={{color:'white'}}>Asunto</Form.Label>
               <Form.Control
                 type="text"
                 name="asunto"
@@ -126,7 +126,7 @@ function Formular() {
           
           <Row className="mb-3">
             <Form.Group as={Col} xs="12" controlId="validationFormikMensaje">
-              <Form.Label>Mensaje</Form.Label>
+              <Form.Label style={{color:'white'}}>Mensaje</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={4}
