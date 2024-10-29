@@ -34,6 +34,7 @@ function Formular() {
       }}
     >
       {({ handleSubmit, handleChange, values, touched, errors }) => (
+        
         <Form noValidate onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} xs="12" controlId="validationFormikNombreCompleto">
@@ -112,7 +113,7 @@ function Formular() {
           </Row>
 
           <Form.Group className="mb-3">
-            <Form.Check
+            <Form.Check className="text-white"
               required
               name="terms"
               label="Acepto los términos y condiciones"
@@ -141,7 +142,7 @@ function Formular() {
             </Form.Group>
           </Row>
           
-          <Button type="submit">Enviar</Button>
+          <Button style={{backgroundColor:'rgba(255, 113, 0, 1)', border:'none', paddingBottom:'20px'}} type="submit">Enviar</Button>
         </Form>
       )}
     </Formik>
