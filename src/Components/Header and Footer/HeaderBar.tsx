@@ -52,7 +52,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="white"/>
 					<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="/Productos" LabelColor="white"/>
 					<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
-					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath="" LabelColor="white"/>
+					<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white" routePath="/Contacto" LabelColor="white"/>
 					<img className="3Dots img-fluid nav-item dropdown" src={require('../Figma Components/Group 1.png')} alt="3 dots"/>
 					</nav>
 					
@@ -72,7 +72,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 							<HeaderButton label="NOSOTROS" IconClass=""  IconColor="white" routePath="/Nosotros" LabelColor="black"/>
 							<HeaderButton label="PRODUCTOS+" IconClass=""  IconColor="white" routePath="/Productos" LabelColor="black"/>
 							<HeaderButton label="FAQS" IconClass=""  IconColor="white" routePath="" LabelColor="black"/>
-							<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white"  routePath="" LabelColor="black"/>
+							<HeaderButton label="CONTACTANOS" IconClass=""  IconColor="white"  routePath="/Contacto" LabelColor="black"/>
 						</Offcanvas.Body>
 					</Offcanvas>
 

@@ -6,6 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import LandingPage from './Components/LandingPage/LandingPage';
 import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
 import ProductsPage from './Components/ProductsPage/ProductsPage';
+import ContactPage from './Components/ContactPage/ContactPage';
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
 
       <Route path="/Productos" element={<ProductsPage/>} />
      
+      <Route path="/Contacto" element={<ContactPage/>} />
 
     </Routes>
   </Router>
