@@ -7,6 +7,7 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
 import ProductsPage from './Components/ProductsPage/ProductsPage';
 import ContactPage from './Components/ContactPage/ContactPage';
+import PrivacyPage from './Components/Sections/PrivacySection';
 function App() {
   return (
     <Router>
@@ -20,6 +21,8 @@ function App() {
       <Route path="/Productos" element={<ProductsPage/>} />
      
       <Route path="/Contacto" element={<ContactPage/>} />
+
+      <Route path="/Privacy" element={<PrivacyPage/>} />
 
     </Routes>
   </Router>

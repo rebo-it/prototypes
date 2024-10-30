@@ -11,7 +11,7 @@ const AboutBody: React.FC = () => {
         
         <Col xs={12} lg={6} className="LeftSectionMid3 pt-4"> {/* Usa Col en lugar de div */}
           <Row className="Top10 justify-content-left">
-            <Col className="Etiqueta-Productos h2 text-white text-center">
+            <Col className="EtiquetaProductos h2 text-white text-center">
               Acerca de Nosotros
             </Col>
           </Row>

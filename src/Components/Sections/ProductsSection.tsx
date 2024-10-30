@@ -9,7 +9,7 @@ import ProductCard from "../Cards/ProductCard";
 const ProductsSection: React.FC = () => {
   return (
       <Container className="ProductsSection p-0 w-100">
-        <Row className="ProductName p-0">
+        <Row className="ProductTop p-0">
           <h1 className="ProductTitle text-start text-white ">Productos</h1>
         </Row>
         <div style={{backgroundColor:'white',height:'3px', width:'100%'}}></div>

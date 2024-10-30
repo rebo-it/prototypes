@@ -12,7 +12,7 @@ function NosotrosPage() {
       </div>
       <div className='BodyApp'>
       <div className="Top1Body p-0">
-            <p className="h1 text-white" style={{font:'ubuntu', paddingTop:'50px', fontWeight:'bold'}}> Acerca de nosotros</p>
+            <p className="text-white justify-content-center justify-content-lg-start" style={{font:'ubuntu', paddingTop:'50px', fontWeight:'bold', fontSize:'3rem'}}> Acerca de nosotros</p>
 
         </div>
       <div style={{height:'3px', backgroundColor:'white'}}></div>
