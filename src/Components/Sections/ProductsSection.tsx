@@ -40,7 +40,7 @@ const ProductsSection: React.FC = () => {
                 <Tab.Pane className="ProductsShown" eventKey="first">
                   <Row gap={3} className="justify-content-center">
                     <Col style={{paddingBottom:'2rem',justifyContent:'center'}} className="d-flex justify-content-center">
-                      <ProductCard label="Producto" label2="Precio" ProductLink="http://localhost:3000/Productos"/>
+                      <ProductCard label="Producto" label2="Precio" ProductLink="http://localhost:3000/Display"/>
                     </Col>
                     <Col style={{paddingBottom:'2rem'}} className="d-flex justify-content-center">
                       <ProductCard label="Producto" label2="Precio" ProductLink="http://localhost:3000/Productos"/>

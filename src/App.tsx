@@ -8,6 +8,7 @@ import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
 import ProductsPage from './Components/ProductsPage/ProductsPage';
 import ContactPage from './Components/ContactPage/ContactPage';
 import PrivacyPage from './Components/Sections/PrivacySection';
+import ProductDisplay from './Components/ProductsPage/ProductDisplay';
 function App() {
   return (
     <Router>
@@ -23,6 +24,8 @@ function App() {
       <Route path="/Contacto" element={<ContactPage/>} />
 
       <Route path="/Privacy" element={<PrivacyPage/>} />
+
+      <Route path="/Display" element={<ProductDisplay/>} />
 
     </Routes>
   </Router>

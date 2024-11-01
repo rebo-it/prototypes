@@ -1,13 +1,17 @@
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-
 import Row from 'react-bootstrap/Row';
 import * as formik from 'formik';
 import * as yup from 'yup';
 import { Link } from 'react-router-dom';
 
-function Formular() {
+interface FormularProps {
+  textColor?: string;
+}
+
+const Formular: React.FC<FormularProps> = ({ textColor = 'white' }) => {
   const { Formik } = formik;
 
   const schema = yup.object().shape({
@@ -38,7 +42,7 @@ function Formular() {
         <Form noValidate onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationFormik01">
-              <Form.Label className="text-white">Nombre completo</Form.Label>
+              <Form.Label style={{ color: textColor }}>Nombre completo</Form.Label>
               <Form.Control
                 type="text"
                 name="nombreCompleto"
@@ -47,14 +51,14 @@ function Formular() {
                 isInvalid={!!errors.nombreCompleto}
                 style={{ margin: '0' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{ color: textColor }}>
                 {errors.nombreCompleto}
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationFormik02">
-              <Form.Label className="text-white">Teléfono</Form.Label>
+              <Form.Label style={{ color: textColor }}>Teléfono</Form.Label>
               <Form.Control
                 type="text"
                 name="telefono"
@@ -63,12 +67,12 @@ function Formular() {
                 isInvalid={!!errors.telefono}
                 style={{ margin: '0' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{ color: textColor }}>
                 {errors.telefono}
               </Form.Control.Feedback>
             </Form.Group>
             <Form.Group as={Col} md="6" controlId="validationFormik03">
-              <Form.Label className="text-white">Correo electrónico</Form.Label>
+              <Form.Label style={{ color: textColor }}>Correo electrónico</Form.Label>
               <Form.Control
                 type="email"
                 name="correoElectronico"
@@ -77,14 +81,14 @@ function Formular() {
                 isInvalid={!!errors.correoElectronico}
                 style={{ margin: '0' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{ color: textColor }}>
                 {errors.correoElectronico}
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationFormik04">
-              <Form.Label className="text-white">Empresa</Form.Label>
+              <Form.Label style={{ color: textColor }}>Empresa</Form.Label>
               <Form.Control
                 type="text"
                 name="empresa"
@@ -94,7 +98,7 @@ function Formular() {
               />
             </Form.Group>
             <Form.Group as={Col} md="6" controlId="validationFormik05">
-              <Form.Label className="text-white">Asunto</Form.Label>
+              <Form.Label style={{ color: textColor }}>Asunto</Form.Label>
               <Form.Control
                 type="text"
                 name="asunto"
@@ -105,7 +109,7 @@ function Formular() {
             </Form.Group>
           </Row>
           <Form.Group className="mb-3" controlId="validationFormik06">
-            <Form.Label className="text-white">Mensaje</Form.Label>
+            <Form.Label style={{ color: textColor }}>Mensaje</Form.Label>
             <Form.Control
               as="textarea"
               rows={4}
@@ -115,7 +119,7 @@ function Formular() {
               isInvalid={!!errors.mensaje}
               style={{ margin: '0' }}
             />
-            <Form.Control.Feedback type="invalid">
+            <Form.Control.Feedback type="invalid" style={{ color: textColor }}>
               {errors.mensaje}
             </Form.Control.Feedback>
           </Form.Group>
@@ -126,7 +130,7 @@ function Formular() {
               label={
                 <>
                   Debes aceptar los{' '}
-                  <Link to="http://localhost:3000/Privacy" target="_blank" rel="noopener noreferrer">
+                  <Link to="http://localhost:3000/Privacy" target="_blank" rel="noopener noreferrer" style={{ color: textColor }}>
                     términos y condiciones
                   </Link>
                 </>
@@ -135,10 +139,10 @@ function Formular() {
               isInvalid={!!errors.terms}
               feedback={errors.terms}
               feedbackType="invalid"
-              className="text-white"
+              style={{ color: textColor }}
             />
           </Form.Group>
-          <Button style={{backgroundColor:'rgba(255, 113, 0, 1)', border:'none'}} type="submit">Enviar</Button>
+          <Button style={{ backgroundColor: 'rgba(255, 113, 0, 1)', border: 'none' }} type="submit">Enviar</Button>
         </Form>
       )}
     </Formik>
