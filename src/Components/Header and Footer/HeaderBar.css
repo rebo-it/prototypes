@@ -1,0 +1,30 @@
+
+.Header{
+    margin: 0%;
+    padding: 0%;
+}
+.ContactInfo {
+    height: 6vh;
+    background-color: rgba(33, 33, 26, 1);
+}
+.nav-link{
+    color: white;
+    font-family: ubuntu;
+}
+.LogoContainer {
+    padding-right: 3vw;
+    height: 15vh;
+    background: linear-gradient(90deg, rgba(217, 28, 28, 1) 0%, rgba(153, 0, 0, 1) 50%);
+}
+
+.Logo {
+    padding-left: 3vw;
+    width: 30vw;
+    min-width: 200px;
+
+}
+
+.ButtonContainer {
+    align-items: center;
+    gap: 15px;
+}

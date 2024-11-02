@@ -1,27 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
+import "bootstrap-icons/font/bootstrap-icons.css";
+import LandingPage from './Components/LandingPage/LandingPage';
+import NosotrosPage from './Components/NosotrosPage/NosotrosPage';
+import ProductsPage from './Components/ProductsPage/ProductsPage';
+import ContactPage from './Components/ContactPage/ContactPage';
+import PrivacyPage from './Components/Sections/PrivacySection';
+import ProductDisplay from './Components/ProductsPage/ProductDisplay';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-          <br/>
-          Main branch.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Routes>
+      {/* Ruta para la página principal o de aterrizaje */}
+      <Route path="/prototypes" element={<LandingPage />} />
+
+      {/* Otras rutas */}
+      <Route path="/Nosotros" element={<NosotrosPage />} />
+
+      <Route path="/Productos" element={<ProductsPage/>} />
+     
+      <Route path="/Contacto" element={<ContactPage/>} />
+
+      <Route path="/Privacy" element={<PrivacyPage/>} />
+
+      <Route path="/Display" element={<ProductDisplay/>} />
+
+    </Routes>
+  </Router>
   );
 }
 
