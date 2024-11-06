@@ -130,7 +130,7 @@ const Formular: React.FC<FormularProps> = ({ textColor = 'white' }) => {
               label={
                 <>
                   Debes aceptar los{' '}
-                  <Link to="http://localhost:3000/Privacy" target="_blank" rel="noopener noreferrer" style={{ color: textColor }}>
+                  <Link to="/Privacy"  target="_blank" rel="noopener noreferrer" style={{ color: textColor }}>
                     términos y condiciones
                   </Link>
                 </>
