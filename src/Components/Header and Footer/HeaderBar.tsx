@@ -22,7 +22,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 			<div className="ContactInfo bg-dark d-flex align-items-center">
 				<Navbar expand="lg" className="navbar navbar-expand w-100" style={{minWidth:'none'}}>
 					
-						<Nav className="TopNav navbar-nav">
+						<Nav className="TopNav navbar-nav w-100">
 							<div className="d-flex direction-row" >
 							<Nav.Item className="nav-item" style={{paddingLeft:'10px'}}>
 								<Nav.Link href="https://api.whatsapp.com/send/?phone=5215561585215&text&type=phone_number&app_absent=0">
@@ -36,7 +36,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 							</Nav.Item>
 							
 							</div>
-							<div className="d-flex direction-row justify-content-end flex-row-reverse" style={{minWidth:'none'}}>
+							<div className="d-flex direction-row justify-content-end flex-grow-1 " style={{minWidth:'none', paddingRight:'20px'}}>
 								<Nav.Item className="nav-item d-none d-lg-block " >
 									<Nav.Link href="https://www.google.com/maps/place/El+Rosario/@19.5046653,-99.2000975,15z/data=!4m2!3m1!1s0x0:0x8a95c0f781b015f2?sa=X&ved=1t:2428&ictx=111">
 										<i className="bi bi-geo-alt"></i> Ubicación
