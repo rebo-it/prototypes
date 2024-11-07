@@ -2,6 +2,9 @@
     background: none;
     border: none;
     width: fit-content;
+    min-width: 70px;
+   
+    justify-content: center;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
@@ -27,4 +30,5 @@
     color: white;
     text-decoration: none;
     margin: 0;
+    
 }
