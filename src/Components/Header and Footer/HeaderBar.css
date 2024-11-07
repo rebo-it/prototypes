@@ -1,5 +1,8 @@
+.TopNav{
+    gap: 30px;
+}
 .nav{
-    gap: 25px;
+    gap: 20px;
 }
 .Header{
     margin: 0%;
@@ -38,4 +41,12 @@
 }
 .offcanvas-header .btn-close {
     filter: invert(1); /* Convierte el botón a blanco */
+  }
+
+  @media (max-width: 576px) { 
+    .nav-link{
+        color: white;
+        font-family: ubuntu;
+        font-size: 14px;
+    }
   }

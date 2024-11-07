@@ -20,10 +20,11 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 	return (
 		<div className="Header container-fluid p-0 w-100">
 			<div className="ContactInfo bg-dark d-flex align-items-center">
-				<Navbar expand="lg" className="navbar navbar-expand">
-					<Container fluid>
-						<Nav className="navbar-nav">
-							<Nav.Item className="nav-item">
+				<Navbar expand="lg" className="navbar navbar-expand w-100" style={{minWidth:'none'}}>
+					
+						<Nav className="TopNav navbar-nav">
+							<div className="d-flex direction-row" >
+							<Nav.Item className="nav-item" style={{paddingLeft:'10px'}}>
 								<Nav.Link href="https://api.whatsapp.com/send/?phone=5215561585215&text&type=phone_number&app_absent=0">
 									<i className="bi bi-whatsapp"></i> 55 615 852 15
 								</Nav.Link>
@@ -33,13 +34,20 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 									<i className="bi bi-envelope"></i> contacto@rebo.mx
 								</Nav.Link>
 							</Nav.Item>
-							<Nav.Item className="nav-item d-none d-lg-block">
-								<Nav.Link href="https://www.google.com/maps/place/El+Rosario/@19.5046653,-99.2000975,15z/data=!4m2!3m1!1s0x0:0x8a95c0f781b015f2?sa=X&ved=1t:2428&ictx=111">
-									<i className="bi bi-geo-alt"></i> Ubicación
-								</Nav.Link>
-							</Nav.Item>
+							
+							</div>
+							<div className="d-flex direction-row justify-content-end flex-row-reverse" style={{minWidth:'none'}}>
+								<Nav.Item className="nav-item d-none d-lg-block " >
+									<Nav.Link href="https://www.google.com/maps/place/El+Rosario/@19.5046653,-99.2000975,15z/data=!4m2!3m1!1s0x0:0x8a95c0f781b015f2?sa=X&ved=1t:2428&ictx=111">
+										<i className="bi bi-geo-alt"></i> Ubicación
+									</Nav.Link>
+								</Nav.Item>
+							
+							</div>
+							
+							
 						</Nav>
-					</Container>
+					
 				</Navbar>
 			</div>
 			<div className="LogoContainer d-flex align-items-center justify-content-between">
@@ -57,7 +65,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					<Nav className="nav navbar-expand-lg d-none d-lg-flex justify-content-start nav-pills flex-column flex-sm-row">
 						<HeaderButton label="INICIO"  routePath="/prototypes" LabelColor="white" />
 						<HeaderButton label="NOSOTROS"  routePath="/Nosotros" LabelColor="white" />
-						<HeaderButton label="PRODUCTOS+"  routePath="/Productos" LabelColor="white" />
+						<HeaderButton label="PRODUCTOS +"  routePath="/Productos" LabelColor="white" />
 						<HeaderButton label="FAQS"  routePath="/Display" LabelColor="white" />
 						<HeaderButton label="CONTACTO"  routePath="/Contacto" LabelColor="white" />
 					</Nav>
@@ -69,9 +77,9 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<Offcanvas.Body className="d-lg-none d-block d-flex flex-column align-items-center justify-content-top">
 					<HeaderButton label="INICIO"  routePath="/prototypes" LabelColor="white" />
 					<HeaderButton label="NOSOTROS"  routePath="/Nosotros" LabelColor="white" />
-					<HeaderButton label="PRODUCTOS+"  routePath="/Productos" LabelColor="white" />
+					<HeaderButton label="PRODUCTOS +"  routePath="/Productos" LabelColor="white" />
 					<HeaderButton label="FAQS"  routePath="" LabelColor="white" />
-					<HeaderButton label="CONTACTANOS"  routePath="/Contacto" LabelColor="white" />
+					<HeaderButton label="CONTACTO"  routePath="/Contacto" LabelColor="white" />
 				</Offcanvas.Body>
 			</Offcanvas>
 		</div>
