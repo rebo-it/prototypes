@@ -1,27 +1,37 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { Button } from 'react-bootstrap'; // Importa el componente Button de react-bootstrap
+import { useNavigate, useLocation } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HeaderButton.css';
 
 interface HeaderButtonprops {
   label: string;
-  routePath: string; 
-  IconClass: string;
-  IconColor: string;
+  routePath: string;
+ 
   LabelColor: string;
 }
 
-const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath, IconClass, IconColor, LabelColor }) => {
-  const navigate = useNavigate();  // Hook de React Router para navegar
+const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath,  LabelColor }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const handleClick = () => {
-    navigate(routePath); // Navegar a la ruta especificada
+    navigate(routePath);
   };
 
+  const isActive = location.pathname === routePath;
+
   return (
-    <Button onClick={handleClick} className="HeaderButton d-inline-flex align-items-center" style={{color:LabelColor}}>
-      <i className={`${IconClass} me-2`} style={{ color: IconColor }}></i>
+    <Button
+      onClick={handleClick}
+      className={`HeaderButton d-inline-flex align-items-center ${isActive ? 'active' : ''}`}
+      style={{
+        color: LabelColor,
+        backgroundColor: isActive ? 'rgba(255, 113, 0, 1)' : 'transparent',
+        border: isActive ? '1px solid rgba(255, 113, 0, 1)' : 'none',
+      }}
+    >
+      
       {label}
     </Button>
   );
