@@ -16,7 +16,15 @@
 .nav-link{
     color: white;
     font-family: ubuntu;
+    text-decoration: none;
+
 }
+.nav-link:focus{
+    color: white;
+}
+.nav-link:active {
+    color: inherit; 
+  }
 .LogoContainer {
     padding-right: 3vw;
     height: 15vh;
@@ -40,7 +48,7 @@
     opacity: 0.8;
 }
 .offcanvas-header .btn-close {
-    filter: invert(1); /* Convierte el botón a blanco */
+    filter: invert(1); /* Converts to white */
   }
 
   @media (max-width: 576px) { 
