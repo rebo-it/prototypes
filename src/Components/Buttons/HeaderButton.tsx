@@ -19,7 +19,6 @@ const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath,  LabelCol
     navigate(routePath);
   };
 
-  // Verifica si la ruta actual coincide con la ruta del botón
   const isActive = location.pathname === routePath;
 
   return (
