@@ -49,7 +49,7 @@
 	} 
     
 }
-@media (max-width: 2560px){
+@media (min-width: 1600px){
 	.MedalHolder{
 		position: absolute;
 		top: 0%; /* Coloca la imagen justo al final del primer div */
